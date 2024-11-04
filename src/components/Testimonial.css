@@ -1,0 +1,94 @@
+.container-fluid1 {
+  background: rgba(19, 51, 17, 1);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-top: 2.5em;
+  overflow: hidden;
+}
+.test-card {
+  background: rgb(26 80 50);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.test-card p{
+  color: white;
+}
+
+.card-section {
+  padding: 0 10px;
+}
+
+.test-card-left {
+  margin-bottom: 20px;
+}
+
+.test-card-left img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.testimonial-image {
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .container-fluid1 {
+    background: rgba(19, 51, 17, 1);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 2.5em;
+    overflow: hidden;
+  }
+  .test-card {
+    margin: 2em !important;
+    padding: 1em !important;
+  }
+  .test-card-left img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .test-card-left p {
+    font-size: 1.2em !important;
+  }
+  .test-card-div {
+    padding: 20px 20px 0 20px;
+  }
+  .card-section {
+    padding: 4rem 4rem 0 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .test-card {
+    margin: 1em !important;
+    padding: 1em !important;
+  }
+  .test-card-left p {
+    font-size: 1em !important;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .container-fluid1 {
+    background: rgba(19, 51, 17, 1);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 2.5em;
+    overflow: hidden;
+  }
+
+  .test-card-div {
+    padding: 20px 35px 0 35px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .test-card-div {
+    padding: 20px 35px 0 35px;
+  }
+}

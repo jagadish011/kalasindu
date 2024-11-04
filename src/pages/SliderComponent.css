@@ -1,0 +1,260 @@
+/* Base styles */
+.slider {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.slider .list .item {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider .list .item.active {
+  opacity: 1;
+  z-index: 10;
+}
+
+.slider .list .item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .list .item img {
+  width: 250vh;
+  height: 150vh;
+  object-fit: cover;
+}
+
+.slider .list .item .content {
+  position: absolute;
+  left: 5%;
+  top: 24%;
+  width: 100%;
+  max-width: 30%;
+  z-index: 1;
+  color: #fff;
+}
+
+
+@keyframes showContent {
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slider .list .item.active p:nth-child(1),
+.slider .list .item.active h2,
+.slider .list .item.active p:nth-child(3) {
+  transform: translateY(30px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent 0.5s 0.7s ease-in-out 1 forwards;
+}
+
+.slider .list .item.active h2 {
+  animation-delay: 1s;
+}
+
+.slider .list .item.active p:nth-child(3) {
+  animation-duration: 1.3s;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 10px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.arrows button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: monospace;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: x-large;
+  transition: 0.5s;
+}
+
+.thumbnail {
+  position: absolute;
+  bottom: 64px;
+  left: 69%;
+  transform: translateX(-50%);
+  z-index: 11;
+  display: flex;
+  gap: 18px;
+  width: calc(100% - 100px);
+  padding: 0 50px;
+  box-sizing: border-box;
+  overflow: auto;
+  justify-content: center;
+}
+
+.thumbnail::-webkit-scrollbar {
+  width: 0;
+}
+
+.thumbnail .item {
+  width: 150px;
+  height: 40vh;
+  filter: brightness(0.5);
+  transition: filter 0.5s;
+  flex-shrink: 0;
+}
+
+.thumbnail .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.thumbnail .item.active {
+  filter: brightness(1.5);
+}
+
+/* Tablet view adjustments */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .slider .list .item img {
+    width: 80vh;
+    height: 100vh;
+  }
+
+  .slider .list .item .content {
+    width: 80%;
+    max-width: none;
+    left: 5%;
+    top: 20%;
+  }
+
+  .thumbnail {
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 35px;
+    width: calc(100% - 50px);
+    padding: 0 25px;
+  }
+
+  .thumbnail .item {
+    width: 120px;
+    height: 30vh;
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 480px) {
+  .slider .list .item img {
+    width: 60vh;
+    height: 100vh;
+  }
+
+  .slider .list .item .content {
+    width: 90%;
+    max-width: none;
+    left: 5%;
+    top: 20%;
+  }
+
+  .thumbnail {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 5px;
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+
+  .thumbnail .item {
+    width: 60px;
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  .thumbnail {
+    left: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+  .thumbnail {
+    left: 80%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 630px) {
+  .slider-para{
+    font-size: 14px;
+  }
+
+  .thumbnail{
+    bottom: 20px;
+  }
+
+  .slider-heading{
+    font-size: 20px;
+  }
+
+  .slider .list .item .content{
+    top: 16%;
+  }
+
+}
+
+@media screen and (min-width: 631px) and (max-width: 760px) {
+  .slider-para{
+    font-size: 14px;
+  }
+
+  .slider-heading{
+    font-size: 20px;
+  }
+
+  .slider .list .item .content{
+    top: 16%;
+  }
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 1023px) {
+  .slider-para{
+    font-size: 18px;
+  }
+
+  .slider-heading{
+    font-size: 20px;
+  }
+
+  .slider .list .item .content{
+    top: 16%;
+  }
+
+}
+
+@media screen and (min-width: 1024px)  {
+  .slider-para{
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1350px)  {
+  .slider-para{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,118 @@
+/* Reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Section 1 Styles */
+.section-1 {
+    height: 100vh;
+    background-image: url("https://neodealsstorageaccount.blob.core.windows.net/neodealscontainer/aftab/ec2aad1e-7912-4661-a976-87fe14431ea7Manthana.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Box Styles */
+.box {
+    width: 100%;
+    padding: 40px 60px;
+}
+
+/* General Box Styles */
+.box h1 {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 5px #000;
+}
+
+.box p {
+    font-size: 1.25rem;
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .box {
+        padding: 20px 40px;
+    }
+
+    .box h1 {
+        font-size: 2rem;
+    }
+
+    .box p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-1 {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    .box {
+        padding: 15px 30px;
+    }
+
+    .box h1 {
+        font-size: 1.875rem;
+    }
+
+    .box p {
+        font-size: 0.9375rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-1 {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    .box {
+        padding: 10px 20px;
+    }
+
+    .box h1 {
+        font-size: 1.75rem;
+    }
+
+    .box p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-1 {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    .box {
+        padding: 5px 10px;
+    }
+
+    .box h1 {
+        font-size: 1.5rem;
+    }
+
+    .box p {
+        font-size: 0.75rem;
+    }
+
+    .hero-overlay .btn {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .social-icon .fs-1 {
+        font-size: 2rem;
+    }
+}

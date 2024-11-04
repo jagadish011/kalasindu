@@ -1,0 +1,26 @@
+
+
+.section-3{
+    height: 70vh;
+    background-image: url("../../assets/images/abt.png");
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    color: white;
+}
+
+.section-z{
+    position: relative;
+}
+.heading-z{
+    position: fixed;
+    z-index: 100;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
