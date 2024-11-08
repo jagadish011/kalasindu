@@ -619,11 +619,11 @@ iframe {
 
 @media screen and (min-width:320px) and (max-width: 630px) {
   .hero-wrapper {
-    height: 64vh;
+    height: 68vh;
   }
 
   .hero-wrapper img {
-    height: 64vh;
+    height: 68vh;
   }
 
   .hero-overlay {
