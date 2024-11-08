@@ -100,25 +100,25 @@ const AboutDescr = () => {
             <div className="container">
               <div className="text-white stats-grid fw-semibold">
                 <div className="">
-                  <div className="stat-item text-center fs-2 ">
+                  <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={150} duration={5.5} /> +
                     <p className="fs-3">Students</p>
                   </div>
                 </div>
                 <div className="">
-                  <div className="stat-item text-center fs-2">
+                  <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={300} duration={5.5} /> +
                     <p className="fs-3">Performances</p>
                   </div>
                 </div>
                 <div className="">
-                  <div className="stat-item text-center fs-2">
+                  <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={30} duration={5.5} /> +
                     <p className="fs-3">Arangetrums</p>
                   </div>
                 </div>
                 <div className="">
-                  <div className="stat-item text-center fs-2">
+                  <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={20} duration={3.5} /> +
                     <p className="fs-3">Productions</p>
                   </div>
