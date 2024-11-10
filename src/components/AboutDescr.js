@@ -35,19 +35,14 @@ const AboutDescr = () => {
             <h1
               className="text-center font-weight-bold"
               style={{
-                fontSize: "3.5em",
                 fontFamily: "Oswald",
                 color: "white",
-                marginTop: "25px", // margin applied only to the heading
               }}
             >
               About Kalasindhu
             </h1>
-            <div className="about-container para ">
+            <div className="about-container para">
               <p
-                style={{
-                  padding: "3rem 2rem",
-                }}
                 className="text-center text-white"
                 data-aos="fade-up"
                 data-aos-duration="2000"
