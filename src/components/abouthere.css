@@ -9,6 +9,15 @@
 .about-container p{
   padding: 3rem 2rem;
 }
+.students{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ /* gap: 2em; */
+ margin-bottom: 2em;
+ margin-top: 2em;
+}
+
 @media screen and (min-width: 320px) and (max-width: 630px) {
   p {
     font-size: .9rem;
@@ -25,7 +34,14 @@
   .about-container p{
     padding: 3rem 1rem;
   }
-
+  .students{
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 2em; */
+    margin-bottom: 2em;
+    margin-top: 2em;
+   }
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
