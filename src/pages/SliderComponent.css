@@ -217,19 +217,38 @@
 
 }
 
-@media screen and (min-width: 631px) and (max-width: 760px) {
+@media screen and (min-width: 631px) and (max-width: 990px) {
   .slider-para{
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .slider-heading{
     font-size: 20px;
   }
 
-  .slider .list .item .content{
-    top: 16%;
+  .slider .list .item .content {
+    position: absolute;
+    left: 5%;
+    top: 14%;
+    width: 100%;
+    max-width: 70%;
+    z-index: 1;
+    color: #fff;
   }
 
+  .thumbnail {
+    bottom: 30;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 20px;
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+
+  .thumbnail .item {
+    width: 100px;
+    height: 30vh;
+  }
 }
 
 @media screen and (min-width: 761px) and (max-width: 1023px) {
