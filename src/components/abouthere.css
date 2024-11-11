@@ -58,8 +58,20 @@
   }
 
   p {
-    font-size: 1.4rem; /* Default for body text */
+    font-size: 1.2rem; 
   }
+
+  .customized-height {
+    height: 82vh;
+  }
+  .students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+   }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
@@ -98,16 +110,6 @@
 }
 
 
-@media screen and  (min-width: 440px) {
-  .customized-height {
-    height: 140vh;
-  }
-}
-@media screen and  (min-width: 630px) {
-  .customized-height {
-    height: 160vh;
-  }
-}
 @media screen and  (min-width: 900px) {
   .customized-height {
     height: 130vh;
