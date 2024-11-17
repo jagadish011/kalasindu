@@ -82,6 +82,11 @@
   p {
     font-size: 1.4rem; 
   }
+
+  .customized-height {
+    height: 70vh;
+  }
+  
 }
 
 @media screen and (min-width: 1201px) {
@@ -109,12 +114,6 @@
   padding: 25px;
 }
 
-
-@media screen and  (min-width: 900px) {
-  .customized-height {
-    height: 130vh;
-  }
-}
 @media screen and  (min-width: 1150px) {
   .customized-height {
     height: 110vh;

@@ -19,21 +19,27 @@ const Test2 = () => {
 
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const selectedEvent = searchParams.get('event');
+  const selectedEvent = searchParams.get("event");
 
-  useEffect(()=>{
-    if(selectedEvent){
+  useEffect(() => {
+    if (selectedEvent) {
       setEvent(selectedEvent);
     }
-  },[])
+  }, []);
 
   function getTimeUntilTargetDate(targetDateString) {
     const now = new Date().getTime();
     const targetDate = new Date(targetDateString).getTime();
     const distance = targetDate - now;
 
+    if (distance < 0) {
+      return null;
+    }
+
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
@@ -45,7 +51,7 @@ const Test2 = () => {
     };
   }
 
-  const targetDate = "2024-06-22T18:00:00"; // June 22nd, 2024, 6:00 PM
+  const targetDate = "2023-11-22T18:00:00"; // June 22nd, 2024, 6:00 PM
 
   const [timer, setTimer] = useState(getTimeUntilTargetDate(targetDate));
 
@@ -55,7 +61,7 @@ const Test2 = () => {
     }, 1000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [timer]);
 
   const eventsData = [
     {
@@ -127,7 +133,6 @@ const Test2 = () => {
                     }}
                   >
                     22
-
                   </p>
                   <p
                     style={{
@@ -214,7 +219,8 @@ const Test2 = () => {
                 marginBottom: "10em",
               }}
             >
-              <div
+              {timer ? (
+                <div
                   className="d-flex justify-content-evenly pt-2"
                   style={{
                     background: "#FCB541",
@@ -223,38 +229,115 @@ const Test2 = () => {
                   }}
                 >
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                        fontWeight: 700,
+                        fontSize: "2em",
+                      }}
+                    >
                       {timer.days}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p
+                      style={{
+                        marginTop: "-20px",
+                        fontFamily: "Open Sans",
+                        fontWeight: 400,
+                      }}
+                    >
                       Days
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                        fontWeight: 700,
+                        fontSize: "2em",
+                      }}
+                    >
                       {timer.hours}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p
+                      style={{
+                        marginTop: "-20px",
+                        fontFamily: "Open Sans",
+                        fontWeight: 400,
+                      }}
+                    >
                       Hours
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                        fontWeight: 700,
+                        fontSize: "2em",
+                      }}
+                    >
                       {timer.minutes}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p
+                      style={{
+                        marginTop: "-20px",
+                        fontFamily: "Open Sans",
+                        fontWeight: 400,
+                      }}
+                    >
                       Min
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                        fontWeight: 700,
+                        fontSize: "2em",
+                      }}
+                    >
                       {timer.seconds}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p
+                      style={{
+                        marginTop: "-20px",
+                        fontFamily: "Open Sans",
+                        fontWeight: 400,
+                      }}
+                    >
                       Sec
                     </p>
                   </div>
                 </div>
+              ) : (
+                <div
+                  className="d-flex justify-content-center"
+                  style={{
+                    marginBottom: "10em",
+                  }}
+                >
+                  <div
+                    className="d-flex justify-content-center pt-2"
+                    style={{
+                      background: "#FCB541",
+                      width: "320px",
+                      borderRadius: "20px",
+                      padding: "20px",
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                        fontWeight: 700,
+                        fontSize: "1.5em",
+                        margin: 0,
+                      }}
+                    >
+                      Events are completed !
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
             <div
               className="d-flex justify-content-center"
@@ -284,7 +367,10 @@ const Test2 = () => {
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <IoLocationOutline className="mt-1" style={{ fontSize: "22px" }} />{" "}
+                    <IoLocationOutline
+                      className="mt-1"
+                      style={{ fontSize: "22px" }}
+                    />{" "}
                     <p className="ms-2">{eventsData[event - 1].location}</p>
                   </div>
 
@@ -293,8 +379,8 @@ const Test2 = () => {
                     <p className="ms-2">{eventsData[event - 1].price}</p>
                   </div>
                 </div>
-                <p >{eventsData[event - 1].desc}</p>
-                <a 
+                <p>{eventsData[event - 1].desc}</p>
+                <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
                   className="btn btn-lg  rounded mt-5 py-3 px-3"
                   style={{
@@ -303,7 +389,6 @@ const Test2 = () => {
                     fontFamily: "Open Sans",
                     fontWeight: "700",
                     color: "black",
-                    
                   }}
                 >
                   Join Whatsapp group for updates
