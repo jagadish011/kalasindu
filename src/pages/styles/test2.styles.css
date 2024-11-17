@@ -19,6 +19,50 @@ header {
     box-sizing: border-box;
 }
 
+.left-1 h1{
+    font-weight: 600;
+    font-size: 3.5em;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+}
+
+.events-details-p{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.events-details-d{
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-top: -20px;
+}
+
+.left-1 h4{
+    font-size: 1.5em;
+}
+
+@media screen and (min-width:320px) and (max-width: 630px) {
+    .left-1 h1{
+        font-size: 2em;
+        margin-top: 3em;
+    }
+
+    .events-details-p{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    
+    .events-details-d{
+        font-size: 1em;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+    
+    .left-1 h4{
+        font-size: 1.1em;
+    }
+}
+
 /* Styles for larger screens (desktops) */
 @media screen and (min-width: 1024px) {
     .right-1 {

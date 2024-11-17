@@ -100,12 +100,8 @@ const Test2 = () => {
               style={{
                 fontFamily: "Oswald",
                 color: "#E7E7E7",
-                fontWeight: 600,
-                fontSize: "3.5em",
-                marginBottom: "1.5em",
-                marginTop: "2em",
               }}
-              className="custom-text2 font-weight-bold"
+              className="font-weight-bold"
             >
               Upcoming Events
             </h1>
@@ -113,7 +109,7 @@ const Test2 = () => {
               className="d-flex flex-column mt-5"
               style={{ fontFamily: "Open Sans" }}
             >
-              <div className="d-flex">
+              <div className="d-flex events-details">
                 <div
                   style={
                     event == 1
@@ -125,21 +121,16 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p
+                  <p className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "2em",
                     }}
                   >
                     22
                   </p>
-                  <p
+                  <p className="events-details-d"
                     style={{
-                      marginTop: "-20px",
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "1.25em",
                     }}
                   >
                     Jun
@@ -147,7 +138,7 @@ const Test2 = () => {
                 </div>
 
                 <h4
-                  className=" ms-5  mt-3"
+                  className="ms-5 mt-3"
                   onClick={() => setEvent(1)}
                   style={
                     event == 1
@@ -170,28 +161,23 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p
+                  <p className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "2em",
                     }}
                   >
                     26
                   </p>
-                  <p
+                  <p className="events-details-d"
                     style={{
-                      marginTop: "-20px",
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "1.25em",
                     }}
                   >
                     July
                   </p>
                 </div>
                 <h4
-                  className="custom-text ms-5  mt-3"
+                  className="ms-5 mt-3"
                   style={
                     event == 2
                       ? { fontWeight: 700, color: "#FCB541", cursor: "pointer" }
