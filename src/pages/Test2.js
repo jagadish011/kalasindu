@@ -281,9 +281,6 @@ const Test2 = () => {
                     <p
                       style={{
                         fontFamily: "Open Sans",
-                        fontWeight: 700,
-                        fontSize: "1.5em",
-                        margin: 0,
                       }}
                     >
                       Events are completed !
@@ -293,42 +290,35 @@ const Test2 = () => {
               )}
             </div>
             <div
-              className="d-flex justify-content-center"
-              style={{ marginBottom: "10em" }}
+              className="event-details"
             >
               <div
-                className="p-5"
-                style={{
-                  width: "100%",
-                  maxWidth: "620px",
-                  height: "auto",
-                  color: "white",
-                }}
+                className="event-details-card"
               >
-                <h3 className="d-flex justify-content-center align-items-center mt-4 mb-5">
+                <h3 className="">
                   Events Details
                 </h3>
-                <div className="d-flex-column justify-content-center align-items-center mt-3">
-                  <div className="d-flex justify-content-start ">
-                    <SlCalender className="mt-1" />{" "}
+                <div className="event-details-card-details">
+                  <div className="event-details-card-details-content">
+                    <SlCalender className="mt-2" />{" "}
                     <p className="ms-2">{eventsData[event - 1].eventDate}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaRegClock className="mt-1" />{" "}
+                    <FaRegClock className="mt-2" />{" "}
                     <p className="ms-2">{eventsData[event - 1].time}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
                     <IoLocationOutline
-                      className="mt-1"
+                      className="mt-2"
                       style={{ fontSize: "22px" }}
                     />{" "}
                     <p className="ms-2">{eventsData[event - 1].location}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaIndianRupeeSign className="mt-1" />{" "}
+                    <FaIndianRupeeSign className="mt-2" />{" "}
                     <p className="ms-2">{eventsData[event - 1].price}</p>
                   </div>
                 </div>

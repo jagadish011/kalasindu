@@ -78,10 +78,47 @@ header {
     width: 20em;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 2em;
-    font-weight: 700;
-    font-size: 1.2em;
+    /* margin-bottom: 2em; */
     text-align: center;
+    font-size: 1.15em;
+}
+
+.time-end-card p{
+    font-weight: 700;
+    font-size: 1.2em;   
+}
+
+.event-details{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.event-details-card{
+    padding: 20px;
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+    color: white;
+}
+
+.event-details-card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.8em;
+    margin-bottom: 2em;
+}
+.event-details-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 2em;
+}
+.event-details-card-details-content{
+    display: flex;
+    justify-content: start;
 }
 
 @media screen and (min-width:320px) and (max-width: 630px) {
