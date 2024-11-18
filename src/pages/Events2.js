@@ -58,7 +58,7 @@ const Events2 = () => {
 
       <div className="section-2-1 box">
         <div className="content-box">
-          <h1 className="custom-events2 display-5 mb-5">
+          <h1 className="custom-events2">
             Festivals of Kalasindhu
           </h1>
           <p

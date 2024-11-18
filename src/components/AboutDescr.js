@@ -87,13 +87,13 @@ const AboutDescr = () => {
             className="stats-section"
             style={{
               background: "#003D1B",
-              borderTopRightRadius: "25px",
-              borderTopLeftRadius: "25px",
+              borderTopRightRadius: "80px",
+              borderTopLeftRadius: "80px",
               padding: "25px",
             }}
           >
             <div className="container">
-              <div className="text-white stats-grid fw-semibold">
+              <div className="text-white fw-semibold students">
                 <div className="">
                   <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={150} duration={5.5} /> +

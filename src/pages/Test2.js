@@ -19,21 +19,27 @@ const Test2 = () => {
 
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const selectedEvent = searchParams.get('event');
+  const selectedEvent = searchParams.get("event");
 
-  useEffect(()=>{
-    if(selectedEvent){
+  useEffect(() => {
+    if (selectedEvent) {
       setEvent(selectedEvent);
     }
-  },[])
+  }, []);
 
   function getTimeUntilTargetDate(targetDateString) {
     const now = new Date().getTime();
     const targetDate = new Date(targetDateString).getTime();
     const distance = targetDate - now;
 
+    if (distance < 0) {
+      return null;
+    }
+
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
@@ -45,7 +51,7 @@ const Test2 = () => {
     };
   }
 
-  const targetDate = "2024-06-22T18:00:00"; // June 22nd, 2024, 6:00 PM
+  const targetDate = "2023-11-19T18:00:00"; // June 22nd, 2024, 6:00 PM
 
   const [timer, setTimer] = useState(getTimeUntilTargetDate(targetDate));
 
@@ -55,7 +61,7 @@ const Test2 = () => {
     }, 1000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [timer]);
 
   const eventsData = [
     {
@@ -94,12 +100,8 @@ const Test2 = () => {
               style={{
                 fontFamily: "Oswald",
                 color: "#E7E7E7",
-                fontWeight: 600,
-                fontSize: "3.5em",
-                marginBottom: "1.5em",
-                marginTop: "2em",
               }}
-              className="custom-text2 font-weight-bold"
+              className="font-weight-bold"
             >
               Upcoming Events
             </h1>
@@ -107,7 +109,7 @@ const Test2 = () => {
               className="d-flex flex-column mt-5"
               style={{ fontFamily: "Open Sans" }}
             >
-              <div className="d-flex">
+              <div className="d-flex events-details">
                 <div
                   style={
                     event == 1
@@ -119,22 +121,16 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p
+                  <p className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "2em",
                     }}
                   >
                     22
-
                   </p>
-                  <p
+                  <p className="events-details-d"
                     style={{
-                      marginTop: "-20px",
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "1.25em",
                     }}
                   >
                     Jun
@@ -142,7 +138,7 @@ const Test2 = () => {
                 </div>
 
                 <h4
-                  className=" ms-5  mt-3"
+                  className="ms-5 mt-3"
                   onClick={() => setEvent(1)}
                   style={
                     event == 1
@@ -165,28 +161,23 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p
+                  <p className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "2em",
                     }}
                   >
                     26
                   </p>
-                  <p
+                  <p className="events-details-d"
                     style={{
-                      marginTop: "-20px",
                       fontFamily: "Open Sans",
-                      fontWeight: 700,
-                      fontSize: "1.25em",
                     }}
                   >
                     July
                   </p>
                 </div>
                 <h4
-                  className="custom-text ms-5  mt-3"
+                  className="ms-5 mt-3"
                   style={
                     event == 2
                       ? { fontWeight: 700, color: "#FCB541", cursor: "pointer" }
@@ -209,101 +200,138 @@ const Test2 = () => {
               />
             </div>
             <div
-              className="d-flex justify-content-center"
-              style={{
-                marginBottom: "10em",
-              }}
+              className="timer"
             >
-              <div
-                  className="d-flex justify-content-evenly pt-2"
-                  style={{
-                    background: "#FCB541",
-                    width: "525px",
-                    borderRadius: "20px",
-                  }}
+              {timer ? (
+                <div
+                  className="timer-card"
                 >
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p className="timer-card-time"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       {timer.days}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p className="timer-card-d"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       Days
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p className="timer-card-time"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       {timer.hours}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p className="timer-card-d"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       Hours
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p className="timer-card-time"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       {timer.minutes}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p className="timer-card-d"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       Min
                     </p>
                   </div>
                   <div>
-                    <p style={{ fontFamily: "Open Sans", fontWeight: 700, fontSize: "2em" }}>
+                    <p className="timer-card-time"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       {timer.seconds}
                     </p>
-                    <p style={{ marginTop: "-20px", fontFamily: "Open Sans", fontWeight: 400 }}>
+                    <p className="timer-card-d"
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
                       Sec
                     </p>
                   </div>
                 </div>
+              ) : (
+                <div
+                  className="time-end"
+                >
+                  <div
+                    className="time-end-card"
+                  >
+                    <p
+                      style={{
+                        fontFamily: "Open Sans",
+                      }}
+                    >
+                      Events are completed !
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
             <div
-              className="d-flex justify-content-center"
-              style={{ marginBottom: "10em" }}
+              className="event-details"
             >
               <div
-                className="p-5"
-                style={{
-                  width: "100%",
-                  maxWidth: "620px",
-                  height: "auto",
-                  color: "white",
-                }}
+                className="event-details-card"
               >
-                <h3 className="d-flex justify-content-center align-items-center mt-4 mb-5">
+                <h3 className="">
                   Events Details
                 </h3>
-                <div className="d-flex-column justify-content-center align-items-center mt-3">
-                  <div className="d-flex justify-content-start ">
-                    <SlCalender className="mt-1" />{" "}
+                <div className="event-details-card-details">
+                  <div className="event-details-card-details-content">
+                    <SlCalender className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].eventDate}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaRegClock className="mt-1" />{" "}
+                    <FaRegClock className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].time}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <IoLocationOutline className="mt-1" style={{ fontSize: "22px" }} />{" "}
+                    <IoLocationOutline
+                      className="events-details-icon" style={{
+                        fontSize: "1.2em",}}
+                    />{" "}
                     <p className="ms-2">{eventsData[event - 1].location}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaIndianRupeeSign className="mt-1" />{" "}
+                    <FaIndianRupeeSign className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].price}</p>
                   </div>
                 </div>
-                <p >{eventsData[event - 1].desc}</p>
-                <a 
+                <p>{eventsData[event - 1].desc}</p>
+                <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded mt-5 py-3 px-3"
+                  className="btn btn-lg rounded mt-5 py-3 px-3"
                   style={{
                     width: "auto",
                     background: "#FCB541",
                     fontFamily: "Open Sans",
                     fontWeight: "700",
                     color: "black",
-                    
                   }}
                 >
                   Join Whatsapp group for updates
