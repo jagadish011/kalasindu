@@ -160,7 +160,7 @@ const Team = () => {
                 style={{ borderRadius: "16px", width: "100%", height: "auto" }}
               />
               <figcaption
-                className="figcaption pb-3 ml-3" 
+                className="figcaption ml-3" 
               >
                 <p className="fw-bolder text-bold fs-2">
                 {member.name}
@@ -170,7 +170,7 @@ const Team = () => {
                 </p>
               </figcaption>
               <div
-                className="small-desc text-dark mt-0 mb-0 px-4 py-5 "
+                className="small-desc text-dark mt-0 mb-0 px-4 py-3"
                 style={{ transition: "all 1s ease-out" }}
               >
                 <h4>{member.name}</h4>
