@@ -103,7 +103,7 @@ const Test2 = () => {
               }}
               className="font-weight-bold"
             >
-              Upcoming Events
+              {timer ? "Upcoming Events" : "Completed Events"}
             </h1>
             <div
               className="d-flex flex-column mt-5"
