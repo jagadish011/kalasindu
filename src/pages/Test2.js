@@ -51,7 +51,7 @@ const Test2 = () => {
     };
   }
 
-  const targetDate = "2024-11-19T18:00:00"; // June 22nd, 2024, 6:00 PM
+  const targetDate = "2023-11-19T18:00:00"; // June 22nd, 2024, 6:00 PM
 
   const [timer, setTimer] = useState(getTimeUntilTargetDate(targetDate));
 
@@ -273,19 +273,10 @@ const Test2 = () => {
                 </div>
               ) : (
                 <div
-                  className="d-flex justify-content-center"
-                  style={{
-                    marginBottom: "10em",
-                  }}
+                  className="time-end"
                 >
                   <div
-                    className="d-flex justify-content-center pt-2"
-                    style={{
-                      background: "#FCB541",
-                      width: "320px",
-                      borderRadius: "20px",
-                      padding: "20px",
-                    }}
+                    className="time-end-card"
                   >
                     <p
                       style={{

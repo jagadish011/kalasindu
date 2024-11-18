@@ -67,6 +67,22 @@ header {
     margin-top: -20px;
 }
 
+.time-end{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.time-end-card {
+    background-color: #FCB541;
+    width: 20em;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 2em;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+}
 
 @media screen and (min-width:320px) and (max-width: 630px) {
     .left-1 h1{
