@@ -121,6 +121,12 @@ header {
     justify-content: start;
 }
 
+.events-details-icon{
+    margin-top: .5em;
+}
+
+
+
 @media screen and (min-width:320px) and (max-width: 630px) {
     .left-1 h1{
         font-size: 2em;
@@ -140,6 +146,23 @@ header {
     
     .left-1 h4{
         font-size: 1.1em;
+    }
+
+    .time-end-card {
+        background-color: #FCB541;
+        width: 16em;
+        border-radius: 20px;
+        padding: 20px;
+        /* margin-bottom: 2em; */
+        text-align: center;
+        font-size: 1.15em;
+    }
+    .time-end-card p{
+        font-weight: 700;
+        font-size: 1.2em;   
+    }
+    .events-details-icon{
+        margin-top: .2em;
     }
 }
 

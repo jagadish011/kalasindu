@@ -300,32 +300,32 @@ const Test2 = () => {
                 </h3>
                 <div className="event-details-card-details">
                   <div className="event-details-card-details-content">
-                    <SlCalender className="mt-2" />{" "}
+                    <SlCalender className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].eventDate}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaRegClock className="mt-2" />{" "}
+                    <FaRegClock className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].time}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
                     <IoLocationOutline
-                      className="mt-2"
-                      style={{ fontSize: "22px" }}
+                      className="events-details-icon" style={{
+                        fontSize: "1.2em",}}
                     />{" "}
                     <p className="ms-2">{eventsData[event - 1].location}</p>
                   </div>
 
                   <div className="d-flex justify-content-start ">
-                    <FaIndianRupeeSign className="mt-2" />{" "}
+                    <FaIndianRupeeSign className="events-details-icon" />{" "}
                     <p className="ms-2">{eventsData[event - 1].price}</p>
                   </div>
                 </div>
                 <p>{eventsData[event - 1].desc}</p>
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded mt-5 py-3 px-3"
+                  className="btn btn-lg rounded mt-5 py-3 px-3"
                   style={{
                     width: "auto",
                     background: "#FCB541",
