@@ -207,80 +207,64 @@ const Test2 = () => {
                   className="timer-card"
                 >
                   <div>
-                    <p
+                    <p className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
-                        fontWeight: 700,
-                        fontSize: "2em",
                       }}
                     >
                       {timer.days}
                     </p>
-                    <p
+                    <p className="timer-card-d"
                       style={{
-                        marginTop: "-20px",
                         fontFamily: "Open Sans",
-                        fontWeight: 400,
                       }}
                     >
                       Days
                     </p>
                   </div>
                   <div>
-                    <p
+                    <p className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
-                        fontWeight: 700,
-                        fontSize: "2em",
                       }}
                     >
                       {timer.hours}
                     </p>
-                    <p
+                    <p className="timer-card-d"
                       style={{
-                        marginTop: "-20px",
                         fontFamily: "Open Sans",
-                        fontWeight: 400,
                       }}
                     >
                       Hours
                     </p>
                   </div>
                   <div>
-                    <p
+                    <p className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
-                        fontWeight: 700,
-                        fontSize: "2em",
                       }}
                     >
                       {timer.minutes}
                     </p>
-                    <p
+                    <p className="timer-card-d"
                       style={{
-                        marginTop: "-20px",
                         fontFamily: "Open Sans",
-                        fontWeight: 400,
                       }}
                     >
                       Min
                     </p>
                   </div>
                   <div>
-                    <p
+                    <p className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
-                        fontWeight: 700,
-                        fontSize: "2em",
                       }}
                     >
                       {timer.seconds}
                     </p>
-                    <p
+                    <p className="timer-card-d"
                       style={{
-                        marginTop: "-20px",
                         fontFamily: "Open Sans",
-                        fontWeight: 400,
                       }}
                     >
                       Sec
