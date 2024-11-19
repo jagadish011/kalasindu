@@ -221,27 +221,26 @@ const Events2 = () => {
 
       <section className="section-4">
         <div
-          style={{
-            backgroundColor: "#330A0A",
-            height: "100vh",
-            display: "flex",
-            justifyItems: "center",
-            alignItems: "center",
-            overflow: "hidden",
+          // style={{
+          //   backgroundColor: "#330A0A",
+          //   height: "100vh",
+          //   display: "flex",
+          //   justifyItems: "center",
+          //   alignItems: "center",
+          //   overflow: "hidden",
 
-          }}
+          // }}
         >
           <div className="container">
             <div className="row">
               <div className="section-4-1 col-lg-6" >
                 <h1
-                  className="text-white fw-bolder mt-5"
+                  className="text-white"
                   
                 >
                   Workshops & other events
                 </h1>
-                <p
-                  
+                <p 
                   className="text-white mt-3"
                   data-aos="fade-up"
                   data-aos-easing="linear"
@@ -256,7 +255,7 @@ const Events2 = () => {
                 </p>
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded mt-5 py-3 px-3"
+                  className="btn btn-lg  rounded py-3 px-3"
                   // style={{
                   //   width: "20em",
                   //   background: "#FCB541",
