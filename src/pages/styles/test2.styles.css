@@ -166,6 +166,38 @@ header {
     }
 }
 
+@media (min-width: 631px) and (max-width: 990px) {
+    .left-1 h1{
+        font-size: 3em;
+        margin-top: 2.2em;
+    }
+    .events-details-p{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .events-details-d{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+    .left-1 h4{
+        font-size: 2em;
+    }
+    .timer-card{
+        width: 33em;
+    }
+    .time-end-card {
+        width: 18em;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .time-end-card p{
+        font-weight: 700;
+        font-size: 1.2em;   
+    }
+    
+}
+
 /* Styles for larger screens (desktops) */
 @media screen and (min-width: 1024px) {
     .right-1 {

@@ -51,7 +51,7 @@ const Test2 = () => {
     };
   }
 
-  const targetDate = "2023-11-19T18:00:00"; // June 22nd, 2024, 6:00 PM
+  const targetDate = "2023-11-20T18:00:00"; // June 22nd, 2024, 6:00 PM
 
   const [timer, setTimer] = useState(getTimeUntilTargetDate(targetDate));
 
@@ -107,7 +107,7 @@ const Test2 = () => {
             </h1>
             <div
               className="d-flex flex-column mt-5"
-              style={{ fontFamily: "Open Sans" }}
+              style={{ fontFamily:"Open Sans"}}
             >
               <div className="d-flex events-details">
                 <div

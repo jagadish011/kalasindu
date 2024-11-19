@@ -237,6 +237,10 @@
     display: none;
   }
 }
+
+@media (min-width: 631px) and (max-width: 990px) {
+  
+}
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .section-2-1 {
