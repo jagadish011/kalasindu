@@ -137,12 +137,11 @@ const Events2 = () => {
         className="section-3"
         style={{
           background: "#003D1B",
-          height: "100vh",
           overflow: "hidden",
           paddingTop: "50px",
         }}
       >
-        <div className="section-3-2 d-flex-row d-lg-flex justify-content-between">
+        <div className="section-3-2">
           {/* Hide on mobile */}
           <div className="section-3-2-image">
             <img src={EventsG2} />

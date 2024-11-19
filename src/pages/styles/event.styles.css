@@ -99,6 +99,10 @@
   overflow: hidden;
   padding-top: 50px;
 }
+.section-3-2{
+  display: flex;
+  justify-content: space-between;
+}
 .section-3-2-image img {
   height: 50vh;
 }
@@ -188,6 +192,12 @@
   .navarasa-navaratri .image-section { order: -1; } 
   .navarasa-navaratri .text-section { order: 1; }
 
+  .section-3{
+    height: 100vh;
+  }
+  .section-3-2{
+    display: block;
+  }
   .section-3-2-text h1 {
     font-size: 2em;
     color: #255a31;
@@ -239,7 +249,45 @@
 }
 
 @media (min-width: 631px) and (max-width: 990px) {
-  
+  .text-section {
+    max-width: 100%;
+    margin-bottom: -1rem;
+  }
+
+  .navarasa-navaratri{
+    height: 132vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: start;
+  }
+  .text-content{
+    margin-top: 1.4em;
+    font-size: 1.3em;
+  }
+  .navarasa-navaratri .image-section { order: -1; } 
+  .navarasa-navaratri .text-section { order: 1; }
+  .section-3{
+    height: 120vh;
+    width: 100%;
+  }
+  .section-3-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .section-3-2-text h1 {
+    font-size: 3em;
+    color: #255a31;
+    margin-top: 20px;
+    font-family: "Oswald";
+  }
+  .section-3-2-text p {
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 0;
+  }
 }
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -424,14 +472,3 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
-  .section-3-2 {
-    display: flex;
-    gap: 2rem;
-  }
-  .section-3-2-text p {
-    font-size: 14px;
-    margin-top: 0;
-  }
-  
-}
