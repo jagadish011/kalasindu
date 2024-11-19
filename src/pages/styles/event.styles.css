@@ -185,6 +185,18 @@
 
   .navarasa-navaratri .image-section { order: -1; } 
   .navarasa-navaratri .text-section { order: 1; }
+
+  .section-3-2-text h1 {
+    font-size: 2em;
+    color: #255a31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+  }
+  .section-3-2-text p {
+    padding: 15px;
+    font-family: "Oswald";
+  }
 }
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -356,11 +368,7 @@
     text-align: center;
     /* margin-top: 12px; */
   }
-  .section-3-2-text h1 {
-    font-size: 3em;
-    color: white;
-    font-family: "Oswald";
-  }
+  
   .section-3-2-text p {
     font-size: 12px;
     color: white;
