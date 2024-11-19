@@ -43,7 +43,6 @@
   background: #003d1b;
   white-space: nowrap;
   font-weight: 900;
-  animation: animate 40s linear infinite;
   width: 250px;
 }
 
@@ -52,6 +51,7 @@
   overflow: hidden;
   height: 880px;
   width: 700px;
+  animation: animate 40s linear infinite;
   transform: rotate(-90deg) translateY(200px) translateX(-20px);
 }
 
