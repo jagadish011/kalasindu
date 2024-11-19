@@ -195,7 +195,11 @@ header {
         font-weight: 700;
         font-size: 1.2em;   
     }
-    
+    .event-details-card h3{
+        margin-top: .8em;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
 }
 
 /* Styles for larger screens (desktops) */
