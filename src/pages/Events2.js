@@ -79,8 +79,7 @@ const Events2 = () => {
         style={{ background: "#003D1B", overflow: "hidden" }}
       >
         <div
-          className="d-flex flex-column flex-md-row justify-content-between align-items-center"
-          style={{ height: "100vh" }}
+          className="navarasa-navaratri"
         >
           {/* Marquee section - Hidden on mobile */}
           <div className="d-none d-md-block">
