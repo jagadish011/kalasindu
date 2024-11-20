@@ -149,7 +149,7 @@ const Events2 = () => {
           <div className="section-3-2-text">
             <h1>Nirantara Narmada</h1>
 
-            <p
+            <p className="navarasa-navaratri-text"
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="2000"
@@ -255,13 +255,6 @@ const Events2 = () => {
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
                   className="btn btn-lg  rounded py-3 px-3"
-                  // style={{
-                  //   width: "20em",
-                  //   background: "#FCB541",
-                  //   fontFamily: "Open Sans",
-                  //   fontWeight: "700",
-                  //   color: "black",
-                  // }}
                 >
                   Join Whatsapp group for updates
                 </a>
