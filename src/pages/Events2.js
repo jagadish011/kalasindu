@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import "./styles/event.styles.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import EventsG1 from "../assets/images/eventsImage1.png";
 import eveImg1 from "../assets/images/2008.png";
 import eveImg2 from "../assets/images/2009.png";
@@ -22,9 +19,12 @@ import eveImg16 from "../assets/images/2023.png";
 import eveImg17 from "../assets/images/2024.png";
 import EventsG2 from "../assets/images/EventsImg2.png";
 import eveImg4 from "../assets/images/workshop.png";
-import Test2 from "./Test2";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Test2 from "./Test2";
+import "./styles/event.styles.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Events2 = () => {
   useEffect(() => {
@@ -219,17 +219,7 @@ const Events2 = () => {
       </div>
 
       <section className="section-4">
-        <div
-          // style={{
-          //   backgroundColor: "#330A0A",
-          //   height: "100vh",
-          //   display: "flex",
-          //   justifyItems: "center",
-          //   alignItems: "center",
-          //   overflow: "hidden",
-
-          // }}
-        >
+        <div>
           <div className="container">
             <div className="row">
               <div className="section-4-1 col-lg-6" >
@@ -252,20 +242,23 @@ const Events2 = () => {
                   Kalasindhu delights in hosting numerous artists who are
                   experts in their respective fields.
                 </p>
+                <div className="button-image">
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
                   className="btn btn-lg  rounded py-3 px-3"
+
                 >
                   Join Whatsapp group for updates
                 </a>
-              </div>
-              <div className="section-4-img col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                <div className="section-4-img col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
                 <img
                   src={eveImg4}
                   className="img-fluid"
                   alt="Hero Image"
                   // style={{ width: "80%" }}
                 />
+              </div>
+                </div>
               </div>
             </div>
           </div>
