@@ -219,17 +219,28 @@ const Events2 = () => {
       </div>
 
       <section className="section-4">
-        <div>
+        <div
+          style={{
+            backgroundColor: "#330A0A",
+            height: "100vh",
+            display: "flex",
+            justifyItems: "center",
+            alignItems: "center",
+            overflow: "hidden",
+
+          }}
+        >
           <div className="container">
             <div className="row">
               <div className="section-4-1 col-lg-6" >
                 <h1
-                  className="text-white"
+                  className="text-white fw-bolder mt-5"
                   
                 >
                   Workshops & other events
                 </h1>
-                <p 
+                <p
+                  
                   className="text-white mt-3"
                   data-aos="fade-up"
                   data-aos-easing="linear"
@@ -242,23 +253,27 @@ const Events2 = () => {
                   Kalasindhu delights in hosting numerous artists who are
                   experts in their respective fields.
                 </p>
-                <div className="button-image">
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded py-3 px-3"
-
+                  className="btn btn-lg  rounded mt-5 py-3 px-3"
+                  // style={{
+                  //   width: "20em",
+                  //   background: "#FCB541",
+                  //   fontFamily: "Open Sans",
+                  //   fontWeight: "700",
+                  //   color: "black",
+                  // }}
                 >
                   Join Whatsapp group for updates
                 </a>
-                <div className="section-4-img col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+              </div>
+              <div className="section-4-img col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
                 <img
                   src={eveImg4}
                   className="img-fluid"
                   alt="Hero Image"
                   // style={{ width: "80%" }}
                 />
-              </div>
-                </div>
               </div>
             </div>
           </div>
