@@ -268,7 +268,6 @@
     max-width: 100%;
     margin-bottom: -1rem;
   }
-
   .navarasa-navaratri{
     height: 132vh; 
     display: flex; 
@@ -362,7 +361,17 @@
 }
 
 @media (min-width: 991px) and (max-width: 1200px){
-  
+  .content-box h1 {
+    font-family: "Oswald";
+    font-weight: 700;
+    margin-bottom: .5em;
+    font-size: 5em;
+    color: white;
+  }
+  .content-box p {
+    font-size: 1.8em;
+    line-height: 1.5;
+  }
 }
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -376,13 +385,6 @@
     padding: 4em 2em;
   }
 
-  .content-box h1 {
-    font-size: 4.5em;
-  }
-  .content-box p {
-    font-size: 1.2em;
-    line-height: 1.5;
-  }
 
   /*! section 2  */
   .marquee-text {
