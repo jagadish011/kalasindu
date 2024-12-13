@@ -145,6 +145,7 @@
   font-weight: 600;
   color: white;
   font-family: "Oswald";
+  margin-top: 1em;
 }
 .section-4-1 p {
   font-size: 18px;
@@ -156,6 +157,7 @@
 }
 .section-4-1 a {
   width: 20em;
+  margin-top: 1em;
   background-color: #fcb541;
   font-family: "Open Sans";
   font-weight: 700;
@@ -222,8 +224,7 @@
     line-height: 2;
   }
   .section-4 {
-    background-color: #330A0A;
-    height: 90vh;
+    height: 75vh;
     overflow: hidden;
     justify-content: center;
     align-items: flex-end;
@@ -235,17 +236,20 @@
     font-weight: 600;
     color: white;
     font-family: "Oswald";
+    margin-top: 0.5em;
   }
   .section-4-1 p {
-    font-size: .9em;
+    font-size: .7em;
     padding-top: 1.5em;
+    padding-bottom: 0px;
     line-height: 2;
     color: white;
     font-family: "Open Sans";
   }
   .section-4-1 a {
     width: auto;
-    margin-top: .8em;
+    margin-top: 1.5em;
+    font-size: 1em;
     background-color: #fcb541;
     font-family: "Open Sans";
     font-weight: 600;
