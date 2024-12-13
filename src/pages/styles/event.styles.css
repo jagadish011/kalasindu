@@ -14,7 +14,7 @@
   font-family: "Oswald";
   font-weight: 700;
   margin-bottom: 1em;
-  font-size: 3em;
+  font-size: 4em;
   color: white;
 }
 .content-box p {
@@ -372,6 +372,16 @@
     font-size: 1.8em;
     line-height: 1.5;
   }
+  .navarasa-navaratri{
+    height: 100vh; 
+    
+  }
+  .text-content{
+    margin-top: 1.4em;
+    font-size: 1.3em;
+  }
+  /* .navarasa-navaratri .image-section { order: -1; } 
+  .navarasa-navaratri .text-section { order: 1; } */
 }
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
