@@ -106,10 +106,10 @@ const Test2 = () => {
               {timer ? "Upcoming Events" : "Completed Events"}
             </h1>
             <div
-              className="d-flex flex-column mt-5"
+              className="d-flex flex-column mt-5 events-details"
               style={{ fontFamily: "Open Sans" }}
             >
-              <div className="d-flex events-details">
+              <div className="d-flex">
                 <div
                   style={
                     event == 1
