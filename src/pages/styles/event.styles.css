@@ -11,11 +11,10 @@
 }
 
 .content-box h1 {
-  font-size: 5em;
   font-family: "Oswald";
   font-weight: 700;
   margin-bottom: 1em;
-  font-size: 4em;
+  font-size: 3em;
   color: white;
 }
 .content-box p {
