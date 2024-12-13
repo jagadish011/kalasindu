@@ -187,15 +187,6 @@ header {
         font-size: 3em;
         margin-top: 2.2em;
     }
-    .events-details-p{
-        font-size: 2.5em;
-        font-weight: 700;
-    }
-    .events-details-d{
-        font-size: 1.5em;
-        font-weight: 700;
-        margin-top: -20px;
-    }
     .left-1 h4{
         font-size: 2em;
     }
@@ -210,6 +201,15 @@ header {
     .time-end-card p{
         font-weight: 700;
         font-size: 1.2em;   
+    }
+    .events-details-p{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .events-details-d{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: -20px;
     }
     .event-details-card h3{
         margin-top: .8em;
@@ -232,15 +232,53 @@ header {
     .left-1 h1{
         font-size: 4em;
         margin-top: 2.2em;
+        margin-bottom: 1em;
         text-align: center;
-    }
-    .events-details{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .left-1 h4{
         font-size: 2.2em;
+    }
+    .events-details{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .timer-card{
+        width: 33em;
+    }
+    .time-end-card {
+        width: 18em;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .time-end-card p{
+        font-weight: 700;
+        font-size: 1.2em;   
+    }
+    .events-details-p{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .events-details-d{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+    .event-details-card h3{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+    .whatsapp-btn a{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        width: full;
+        text-decoration: none;
+        background-color: #FCB541;
+        font-size: 1.6em;
+        font-weight: 700;
+        font-family: "Open Sans";
+        color: #000;
     }
 }
 
