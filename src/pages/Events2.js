@@ -22,9 +22,9 @@ import eveImg4 from "../assets/images/workshop.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Test2 from "./Test2";
-import "./styles/event.styles.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./styles/event.styles.css";
 
 const Events2 = () => {
   useEffect(() => {
@@ -164,40 +164,6 @@ const Events2 = () => {
               every dancer.
             </p>
           </div>
-          {/* <section
-            style={{ position: "relative", width: "20%", overflow: "hidden" }}
-          >
-            <div className="scroll text1">
-              <div
-                style={{
-                  color: "#FCB541",
-                  fontSize: "5em",
-                  background: "#003D1B",
-                  whiteSpace: "nowrap",
-                  fontWeight: "900",
-                  animation: "animate 40s linear infinite",
-                  width: "250px",
-                  height: "600px",
-                }}
-              >
-                <marquee
-                  loop="infinite"
-                  style={{
-                    height: "700px",
-                    width: "700px",
-                    transform:
-                      "rotate(90deg) translateY(450px) translateX(-10px)",
-                  }}
-                >
-                  Navaratri <span>Navarasa</span> Navaratri{" "}
-                  <span>Navarasa</span> Navaratri <span>Navarasa</span>{" "}
-                  Navaratri <span>Navarasa</span> Navaratri{" "}
-                  <span>Navarasa</span> <span>Navarasa</span> Navaratri{" "}
-                  <span>Navarasa</span> Navaratri
-                </marquee>
-              </div>
-            </div>
-          </section> */}
         </div>
 
         {/* Marquee for laptop view */}
