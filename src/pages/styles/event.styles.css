@@ -282,27 +282,37 @@
   }
   .navarasa-navaratri .image-section { order: -1; } 
   .navarasa-navaratri .text-section { order: 1; }
-  .section-3{
-    height: 120vh;
-    width: 100%;
-  }
   .section-3-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    
+    display: block;
+    height: 100vh;
   }
-  
+  .section-3-2-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3-2-image img {
+    height: 50vh;
+  }
+  .section-3-2-text {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
   .section-3-2-text h1 {
     font-size: 3em;
+    text-align: left;
     color: #255a31;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: "Oswald";
   }
   .section-3-2-text p {
-    font-size: 1.2em;
-    margin-top: 1em;
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 2;
   }
 
   .section-4 {
