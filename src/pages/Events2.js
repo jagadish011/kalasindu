@@ -199,7 +199,7 @@ const Events2 = () => {
 
         {/* Marquee for laptop view */}
         <marquee
-          className="d-none d-md-none d-lg-flex"
+          className="m-images d-lg-flex"
           loop="infinite"
           style={{
             height: "13.5rem",
