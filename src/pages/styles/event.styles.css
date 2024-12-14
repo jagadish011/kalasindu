@@ -476,6 +476,41 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .section-4 {
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .section-4-1 h1 {
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+    font-family: "Oswald";
+  }
+  .section-4-1 p {
+    font-size: 1.2em;
+    padding-top: 1em;
+    line-height: 2;
+    color: white;
+    font-family: "Open Sans";
+  }
+  .section-4-1 a {
+    width: auto;
+    margin-top: .8em;
+    background-color: #fcb541;
+    font-size: 2em;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #000;
+  }
+
+  .section-4-1 a:hover {
+    background-color: #f39d13;
+    color: #000;
+  }
 }
 
 /* Tablet view adjustments */
@@ -533,9 +568,9 @@
   } */
 
   /*! section 4  */
-  .section-4-img img {
+  /* .section-4-img img {
     width: 65%;
-  }
+  } */
 }
 
 /* Mobile view adjustments */

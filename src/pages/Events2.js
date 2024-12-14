@@ -219,7 +219,7 @@ const Events2 = () => {
         <div>
           <div className="container">
             <div className="row">
-              <div className="section-4-1 col-lg-6">
+              <div className="section-4-1 col-lg-6 ">
                 <h1 className="text-white fw-bolder">
                   Workshops & other events
                 </h1>
