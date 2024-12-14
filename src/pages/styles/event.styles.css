@@ -373,15 +373,30 @@
     line-height: 1.5;
   }
   .navarasa-navaratri{
-    height: 100vh; 
-    
+    height: 70vh;   
   }
   .text-content{
     margin-top: 1.4em;
-    font-size: 1.3em;
+    padding-right: 40px;
+    font-size: 1.2em;
   }
-  /* .navarasa-navaratri .image-section { order: -1; } 
-  .navarasa-navaratri .text-section { order: 1; } */
+  .marquee-text {
+    color: #fcb541;
+    font-size: 4.5em;
+    background: #003d1b;
+    white-space: nowrap;
+    font-weight: 900;
+    width: 10px;
+  }
+  
+  .marquee {
+    height: 16em;
+    width: 15em;
+    transform: rotate(0deg) translateY(100px) translateX(0px);
+  }
+  .image-section{
+    font-size: 1.1em;
+  }
 }
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -401,11 +416,11 @@
     font-size: 4em;
   }
 
-  .marquee {
+  /* .marquee {
     height: 16em;
     width: 900px;
     transform: rotate(-90deg) translateY(100px) translateX(-20px);
-  }
+  } */
 
   .text-section {
     max-width: 100%;
