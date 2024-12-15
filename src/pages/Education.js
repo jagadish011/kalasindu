@@ -53,77 +53,47 @@ function Education() {
             </div>
           </div>
         </div>
-        <div
-          style={{
-            backgroundColor: "#080808",
-            color: "#E8E5E7",
-            overflow: "hidden",
-          }}
-        >
-          <div className="container">
-            <div className="row mt-5 mb-4 " style={styles.container}>
-              <div className="col-lg-6 col-md-12 text-center">
-                <img
-                  src={eduImg2}
-                  alt="Hero Image"
-                  className="img-fluid w-100"
-                  style={{ height: "35em", objectFit: "contain" }}
-                />
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <h1
-                  className="text-white fw-bolder custom-text5"
-                  style={{ fontSize: "4rem", fontFamily: "Oswald" }}
-                >
-                  Curriculum
-                </h1>
-                <ol
-                  className="text-white"
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  style={{
-                    fontSize: "18px",
-                    marginTop: "2em",
-                    fontFamily: "Open Sans",
-                  }}
-                >
-                  <li>
-                    The curriculum includes meticulous instruction in hand
-                    gestures, facial expressions, adavus, and a traditional
-                    Bharatanatyam repertoire.
-                  </li>
-                  <li className="mt-3">
-                    Dance training goes beyond technique, incorporating
-                    flexibility and cardio fitness.
-                  </li>
-                  <li className="mt-3">
-                    Music and Sanskrit are taught from basics along with what is
-                    needed for dance.
-                  </li>
-                  <li className="mt-3">
-                    Advanced training includes rangapravesha, in-depth
-                    exploration of Tala and Abhinaya, and opportunities for
-                    composing and choreographing dance pieces.
-                  </li>
-                </ol>
-                <a
-                  href="https://wa.me/9731098227"
-                  className="btn btn-lg btn-dark rounded mt-5"
-                  style={{
-                    width: "198px",
-                    background: "#FCB541",
-                    fontFamily: "Open Sans",
-                    fontWeight: "bold",
-                    color: "black",
-                  }}
-                >
-                  Enquire
-                </a>
-              </div>
+
+        <div className="curriculum-section">
+          <div className="container curriculum-container">
+            <div className="curriculum-image">
+              <img src={eduImg2} alt="Curriculum Image" className="img-fluid" />
+            </div>
+
+            <div className="curriculum-content">
+              <h1 className="curriculum-title">Curriculum</h1>
+              <ol
+                className="curriculum-list"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <li>
+                  The curriculum includes meticulous instruction in hand
+                  gestures, facial expressions, adavus, and a traditional
+                  Bharatanatyam repertoire.
+                </li>
+                <li>
+                  Dance training goes beyond technique, incorporating
+                  flexibility and cardio fitness.
+                </li>
+                <li>
+                  Music and Sanskrit are taught from basics along with what is
+                  needed for dance.
+                </li>
+                <li>
+                  Advanced training includes rangapravesha, in-depth exploration
+                  of Tala and Abhinaya, and opportunities for composing and
+                  choreographing dance pieces.
+                </li>
+              </ol>
+              <a href="https://wa.me/9731098227" className="curriculum-button">
+                Enquire
+              </a>
             </div>
           </div>
         </div>
+
         <div className="container" style={styles.container}>
           <div className="row mt-5 mb-4">
             <div className="col-lg-6 col-md-12">
