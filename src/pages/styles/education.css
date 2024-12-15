@@ -297,6 +297,7 @@ body {
 /* Responsive */
 
 @media screen and (min-width: 320px) and (max-width: 630px) {
+  /* Education Section */
   .education {
     display: flex;
     flex-direction: column; /* Ensure column layout */
@@ -348,6 +349,64 @@ body {
     padding: 12px;
     text-align: center;
     order: 3;
+  }
+
+  /* curriculum */
+  .curriculum-section {
+    padding: 20px;
+  }
+
+  .curriculum-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem; 
+  }
+
+  .curriculum-image {
+    order: 1; 
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .curriculum-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+  }
+  
+  .curriculum-content { 
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .curriculum-title {
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+
+  .curriculum-list {
+    width: 100%;
+    font-size: 1rem; 
+    line-height: 1.5;
+    padding: 0;
+    margin: 1rem 0;
+    list-style: decimal inside; 
+  }
+
+  .curriculum-list li {
+    margin-bottom: 1rem; 
+  }
+
+  .curriculum-button{
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    text-align: center;
   }
 }
 
