@@ -94,26 +94,12 @@ function Education() {
           </div>
         </div>
 
-        <div className="container" style={styles.container}>
-          <div className="row mt-5 mb-4">
-            <div className="col-lg-6 col-md-12">
-              <h1
-                className="fw-bolder mt-5 custom-text5"
-                style={{
-                  fontSize: "60px",
-                  color: "black",
-                  fontFamily: "Oswald",
-                }}
-              >
-                Added benefits
-              </h1>
+        <div className="added-benefits-section">
+          <div className="container added-benefits-container">
+            <div className="added-benefits-content">
+              <h1 className="added-benefits-title">Added Benefits</h1>
               <ol
-                className="mt-4"
-                style={{
-                  fontSize: "18px",
-                  fontWeight: "600",
-                  fontFamily: "Open Sans",
-                }}
+                className="added-benefits-list"
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
@@ -122,48 +108,40 @@ function Education() {
                   Students are exposed to diverse dance styles and forms,
                   broadening their artistic horizons.
                 </li>
-                <li className="mt-3">
+                <li>
                   Opportunities for solo or group performances, competitions,
                   and corporate events in and out of state.
                 </li>
-                <li className="mt-3">
+                <li>
                   Advanced students engage in natuvanga and teach juniors.
                 </li>
-                <li className="mt-3">
+                <li>
                   Training includes Rangapravesha and state exams at all levels.
                 </li>
-                <li className="mt-3">
+                <li>
                   Annual workshops with renowned artists enrich the learning
                   experience.
                 </li>
-                <li className="mt-3">
-                  Abundant memories and fun throughout the journey.
-                </li>
+                <li>Abundant memories and fun throughout the journey.</li>
               </ol>
               <a
                 href="https://wa.me/9731098227"
-                className="btn btn-lg btn-dark rounded mt-4"
-                style={{
-                  width: "198px",
-                  background: "#0E0E0E",
-                  fontFamily: "Open Sans",
-                  fontWeight: "bold",
-                  color: "#FCB541",
-                }}
+                className="added-benefits-button"
               >
                 Enquire
               </a>
             </div>
-            <div className="col-lg-6 col-md-12 d-flex justify-content-center align-items-center mt-5">
+
+            <div className="added-benefits-image">
               <img
                 src={eduImg3}
-                alt="Hero Image"
+                alt="Added Benefits Image"
                 className="img-fluid"
-                style={{ height: "30em", objectFit: "contain" }}
               />
             </div>
           </div>
         </div>
+
         <div className="w-100" style={{ backgroundColor: "#003D1B" }}>
           <div className="container" style={styles.container}>
             <div className="row mt-5">
