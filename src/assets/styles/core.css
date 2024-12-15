@@ -984,9 +984,9 @@ iframe {
   width:13em ;
   font-size: 1em ;
 }
-  /* .main-heading {
-    font-size: 1.8rem !important;
-  } */
+  .main-heading {
+    font-size: 3.8rem ;
+  }
 
   .visit-us {
     font-size: 1.3em;

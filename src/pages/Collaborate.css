@@ -39,14 +39,14 @@
   margin-top: 5em;
 }
 
-.hero-content h1{
+.hero-content-collaborate h1{
   font-size: 3.3rem;
   text-align: center;
   font-family: "Oswald";
   font-weight: 700;
   padding: 1px;
 }
-.hero-content p{
+.hero-content-collaborate p{
   font-size: 1.2rem;
   text-align: center;
   font-family: "Open Sans";

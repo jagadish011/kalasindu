@@ -25,8 +25,8 @@ function Collaborate() {
           style={{ marginTop: "5.5em" }}
         >
           <div className="hero-overlay1">
-            <div className="hero-content">
-              <div>
+            <div className="">
+              <div className="hero-content-collaborate">
                 <h1
                   className=""
                   style={{ fontFamily: "Oswald" }}
