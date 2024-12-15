@@ -297,13 +297,15 @@ body {
 /* Responsive */
 
 @media screen and (min-width: 320px) and (max-width: 630px) {
+
   /* Education Section */
   .education {
     display: flex;
-    flex-direction: column; /* Ensure column layout */
+    flex-direction: column;
+    /* Ensure column layout */
     height: auto;
     padding: 20px;
-    gap: 2rem;  
+    gap: 2rem;
   }
 
   .education-content {
@@ -322,7 +324,7 @@ body {
   }
 
   .education-image {
-    order: 1; 
+    order: 1;
     max-width: 100%;
     text-align: center;
   }
@@ -333,9 +335,10 @@ body {
     margin: 0 auto;
   }
 
-  .education-d{
+  .education-d {
     order: 2;
   }
+
   .education-description {
     font-size: 1rem;
     line-height: 1.4;
@@ -358,13 +361,13 @@ body {
 
   .curriculum-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-    gap: 2rem; 
+    gap: 2rem;
   }
 
   .curriculum-image {
-    order: 1; 
+    order: 1;
     text-align: center;
     max-width: 100%;
   }
@@ -372,17 +375,17 @@ body {
   .curriculum-image img {
     width: 100%;
     height: auto;
-    border-radius: 5px; 
+    border-radius: 5px;
   }
-  
-  .curriculum-content { 
+
+  .curriculum-content {
     display: flex;
     flex-direction: column;
     max-width: 100%;
   }
 
   .curriculum-title {
-    font-size: 2rem; 
+    font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
     color: white;
@@ -391,22 +394,87 @@ body {
 
   .curriculum-list {
     width: 100%;
-    font-size: 1rem; 
+    font-size: 1rem;
     line-height: 1.5;
     padding: 0;
     margin: 1rem 0;
-    list-style: decimal inside; 
+    list-style: decimal inside;
   }
 
   .curriculum-list li {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
   }
 
-  .curriculum-button{
+  .curriculum-button {
     width: 100%;
     font-size: 1rem;
     padding: 12px;
     text-align: center;
+  }
+
+  /* added benifits */
+  .added-benefits-section {
+    padding: 20px;
+  }
+
+  .added-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .added-benefits-content {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .added-benefits-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+
+  .added-benefits-list {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0;
+    margin: 1rem 0;
+    list-style: decimal inside;
+  }
+
+  .added-benefits-list li {
+    margin-bottom: 1rem;
+  }
+
+  .added-benefits-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #0e0e0e;
+    color: #fcb541;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .added-benefits-button:hover {
+    background-color: #333;
+  }
+
+  .added-benefits-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .added-benefits-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
   }
 }
 
