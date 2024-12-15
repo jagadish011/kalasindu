@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Education Section Styles */
+.education {
+  height: 100vh;
+  display: flex;
+  margin-top: 1.5em;
+  align-items: center;
+  padding: 40px;
+  gap: 165px;
+}
+
+.education-content {
+  flex: 1;
+  gap: 30px;
+  max-width: 50%;
+}
+
+.education-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+  margin-bottom: 1em;
+}
+
+.education-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3em;
+  color: #333;
+}
+
+.enquire-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fcb541;
+  background-color: #0e0e0e;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.enquire-button:hover {
+  background-color: #333;
+}
+
+.education-image {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
