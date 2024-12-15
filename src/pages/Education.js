@@ -23,6 +23,7 @@ function Education() {
           <div className="education">
             <div className="education-content">
               <h1 className="education-title">Education at Kalasindhu</h1>
+              <div className="education-d">
               <p className="education-description">
                 At Kalasindhu, a comprehensive and integrated approach to
                 education is offered. Music and Sanskrit are taught along with
@@ -33,9 +34,11 @@ function Education() {
                 The dedicated space, designed for all ages, sex, and skill,
                 fosters creativity in a serene ambiance.
               </p>
+              </div>
               <a href="https://wa.me/9731098227" className="enquire-button">
                 Enquire
               </a>
+              
             </div>
             <div className="education-image">
               <img src={eduImg1} alt="Education Hero" className="img-fluid" />

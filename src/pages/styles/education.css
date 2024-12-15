@@ -296,21 +296,24 @@ body {
 
 /* Responsive */
 
-@media screen and (min-width:320px) and (max-width: 630px) {
+@media screen and (min-width: 320px) and (max-width: 630px) {
   .education {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Ensure column layout */
     height: auto;
     padding: 20px;
-    gap: 2rem;
-    height: auto;
+    gap: 2rem;  
   }
 
   .education-content {
+    /* order: 2;  */
     max-width: 100%;
-    order: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   .education-title {
+    /* order : 1; */
     margin-top: 3.5rem;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -318,8 +321,9 @@ body {
   }
 
   .education-image {
+    order: 1; 
     max-width: 100%;
-    order: 2;
+    text-align: center;
   }
 
   .img-fluid {
@@ -328,20 +332,25 @@ body {
     margin: 0 auto;
   }
 
+  .education-d{
+    order: 2;
+  }
   .education-description {
     font-size: 1rem;
     line-height: 1.4;
     margin-bottom: 2rem;
-    order: 3;
+    /* order: 3; */
   }
 
   .enquire-button {
     width: 100%;
     font-size: 1rem;
     padding: 12px;
-    order: 4;
+    text-align: center;
+    order: 3;
   }
 }
+
 
 @media (min-width: 631px) and (max-width: 990px) {}
 
