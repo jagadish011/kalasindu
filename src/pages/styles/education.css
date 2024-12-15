@@ -476,6 +476,45 @@ body {
     height: auto;
     border-radius: 5px;
   }
+
+  /* admissions */
+
+  .admissions-section {
+    padding: 20px; 
+  }
+
+  .admissions-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; 
+  }
+
+  .admissions-title {
+    text-align: center;
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  .admissions-line {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .admissions-paragraph {
+    
+    font-size: 1rem; 
+    line-height: 1.5;
+    margin: 0; 
+    color: #e8e5e7; 
+  }
+  .admissions-button {
+    width: 100%;
+  }
 }
 
 
