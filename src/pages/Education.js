@@ -14,22 +14,11 @@ function Education() {
     AOS.init();
   }, []);
 
-  const styles = {
-    container: {
-      minHeight: "100vh",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    },
-    content: {
-      paddingLeft: "20px",
-    },
-  };
-
   return (
     <>
       <Navbar />
       <div style={{ backgroundColor: "#E8E5E7", overflow: "hidden" }}>
+
         <div className="container">
           <div className="education">
             <div className="education-content">
@@ -147,33 +136,34 @@ function Education() {
             <div>
               <h1 className="admissions-title">Admissions and Schedule</h1>
               <div className="admissions-line">
-              <p
-                className="admissions-paragraph"
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-              >
-                For beginners aged 7 and above, Kalasindhu provides a welcoming
-                entry point. Enrollment is available in May, June, and October.
-              </p>
-              <p
-                className="admissions-paragraph"
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-              >
-                Classes are held on Mondays, Wednesdays, from 5:00 to 8 pm
-                COVERING 4 batches each focusing on different levels of
-                learning.
-              </p>
-              <p
-                className="admissions-paragraph"
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-              >
-                New beginners batches will be conducted on the weekends.
-              </p>
+                <p
+                  className="admissions-paragraph"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
+                  For beginners aged 7 and above, Kalasindhu provides a
+                  welcoming entry point. Enrollment is available in May, June,
+                  and October.
+                </p>
+                <p
+                  className="admissions-paragraph"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
+                  Classes are held on Mondays, Wednesdays, from 5:00 to 8 pm
+                  COVERING 4 batches each focusing on different levels of
+                  learning.
+                </p>
+                <p
+                  className="admissions-paragraph"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
+                  New beginners batches will be conducted on the weekends.
+                </p>
               </div>
               <a href="https://wa.me/9731098227" className="admissions-button">
                 Enquire
