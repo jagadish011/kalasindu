@@ -158,7 +158,7 @@ body {
 .added-benefits-section {
   background-color: #e8e5e7;
   color: #333;
-  padding: 40px 20px;
+  padding: 40px 40px;
 }
 
 .added-benefits-container {
@@ -237,11 +237,11 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  padding: 40px 20px;
+  padding: 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 .admissions-container {
@@ -733,4 +733,142 @@ body {
 }
 
 
-@media (min-width: 991px) and (max-width: 1200px) {}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .education {
+    height: auto; 
+    gap: 6rem; 
+  }
+
+  .education-content {
+    max-width: 60%; 
+    gap: 20px;
+  }
+
+  .education-title {
+    font-size: 2.8rem; 
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+
+  .education-description {
+    font-size: 1.1rem; 
+    line-height: 1.5;
+  }
+
+  .enquire-button {
+    width: 9rem;
+    padding: 12px 20px; 
+  }
+
+  .education-image {
+    max-width: 40%;
+     
+  }
+
+  .curriculum-section {
+    padding: 30px 15px; 
+  }
+
+  .curriculum-container {
+    gap: 15px; 
+  }
+
+  .curriculum-title {
+    font-size: 2.8rem;
+  }
+
+  .curriculum-list {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .curriculum-button {
+    width: 9rem;
+    padding: 12px 20px;
+  }
+
+  .added-benefits-section {
+    padding: 30px 35px;
+  }
+
+  .added-benefits-container {
+    gap: 15px;
+  }
+
+  .added-benefits-title {
+    font-size: 2.8rem;
+  }
+
+  .added-benefits-list {
+    font-size: 1.1rem;
+  }
+
+  .added-benefits-button {
+    width: 9rem;
+    padding: 12px 20px;
+  }
+
+  .admissions-section {
+    background-color: #003d1b;
+    color: #e8e5e7;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admissions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Title Styling */
+  .admissions-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #e8e5e7;
+    margin-bottom: 1em;
+  }
+  
+  .admissions-line {
+    margin-bottom: 3em;
+    width: 75%;
+  }
+  
+  /* Paragraph Styling */
+  .admissions-paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e8e5e7;
+    margin-bottom: 15px;
+  }
+  
+  /* Enquire Button */
+  .admissions-button {
+    width: 9rem;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: #fcb541;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admissions-button:hover {
+    background-color: #f0990d;
+  }
+}
+

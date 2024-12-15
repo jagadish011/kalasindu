@@ -19,7 +19,7 @@ function Education() {
       <Navbar />
       <div style={{ backgroundColor: "#E8E5E7", overflow: "hidden" }}>
 
-        <div className="container">
+        <div className="education-section">
           <div className="education">
             <div className="education-content">
               <h1 className="education-title">Education at Kalasindhu</h1>
@@ -47,7 +47,7 @@ function Education() {
         </div>
 
         <div className="curriculum-section">
-          <div className="container curriculum-container">
+          <div className="curriculum-container">
             <div className="curriculum-image">
               <img src={eduImg2} alt="Curriculum Image" className="img-fluid" />
             </div>
@@ -87,7 +87,7 @@ function Education() {
         </div>
 
         <div className="added-benefits-section">
-          <div className="container added-benefits-container">
+          <div className="added-benefits-container">
             <div className="added-benefits-content">
               <h1 className="added-benefits-title">Added Benefits</h1>
               <ol
@@ -135,7 +135,7 @@ function Education() {
         </div>
 
         <div className="admissions-section">
-          <div className="container admissions-container">
+          <div className="admissions-container">
             <div>
               <h1 className="admissions-title">Admissions and Schedule</h1>
               <div className="admissions-line">
