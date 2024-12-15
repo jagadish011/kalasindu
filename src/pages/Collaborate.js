@@ -56,7 +56,7 @@ function Collaborate() {
           }}
         >
           <h1
-            className="text-white fw-bolder mt-3 px-4"
+            className="text-white fw-bolder"
             style={{
               fontFamily: "Oswald",
               color: "#E8E5E7",
@@ -64,15 +64,15 @@ function Collaborate() {
           >
             Kalasindhu is Looking for ....
           </h1>
-          <div className="row mt-5 mx-0">
-            <div className="col-lg-5 mb-5">
+          <div className="collaborate-s2-container mx-0">
+            <div className="collaborate-s2-img">
               <img
                 src={colImg3}
                 alt="Hero Image"
-                className="img-fluid w-100 h-100"
+                className="img-fluid"
               />
             </div>
-            <div className="col-lg-6 d-flex flex-column justify-content-center collaborate-s2">
+            <div className="collaborate-s2">
               <p
                 className="text-white m-5"
                 style={{ fontFamily: "Open Sans" }}
