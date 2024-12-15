@@ -518,6 +518,219 @@ body {
 }
 
 
-@media (min-width: 631px) and (max-width: 990px) {}
+@media (min-width: 631px) and (max-width: 990px) {
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 40px;
+    gap: 3rem;
+  }
+
+  .education-content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-title {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .education-image {
+    order: 1;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .education-d {
+    order: 2;
+  }
+
+  .education-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+  }
+
+  .enquire-button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 14px;
+    text-align: center;
+    order: 3;
+  }
+
+  .curriculum-section {
+    padding: 40px;
+  }
+
+  .curriculum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .curriculum-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .curriculum-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .curriculum-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .curriculum-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .curriculum-list {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style: decimal inside;
+  }
+
+  .curriculum-list li {
+    margin-bottom: 1.5rem;
+  }
+
+  .curriculum-button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .added-benefits-section {
+    padding: 40px;
+  }
+
+  .added-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .added-benefits-content {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .added-benefits-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+  }
+
+  .added-benefits-list {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style: decimal inside;
+  }
+
+  .added-benefits-list li {
+    margin-bottom: 1.5rem;
+  }
+
+  .added-benefits-button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #0e0e0e;
+    color: #fcb541;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .added-benefits-button:hover {
+    background-color: #333;
+  }
+
+  .added-benefits-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .added-benefits-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .admissions-section {
+    padding: 40px;
+  }
+
+  .admissions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .admissions-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  .admissions-line {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .admissions-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #e8e5e7;
+  }
+
+  .admissions-button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+}
+
 
 @media (min-width: 991px) and (max-width: 1200px) {}

@@ -80,9 +80,9 @@
   /* .container p {
     font-size: 18px; 
   } */
-  .container h1 {
-    font-size: 35px; /* Reduced font size for mobile view */
-  }
+  /* .container h1 {
+    font-size: 35px; 
+  } */
   .btn {
     width: 100%; /* Make button width responsive */
   }
