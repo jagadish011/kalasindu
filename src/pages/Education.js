@@ -142,81 +142,46 @@ function Education() {
           </div>
         </div>
 
-        <div className="w-100" style={{ backgroundColor: "#003D1B" }}>
-          <div className="container" style={styles.container}>
-            <div className="row mt-5">
-              <div className="col-lg-10 col-md-12">
-                <h1
-                  className="fw-bolder custom-text5"
-                  style={{
-                    color: "#E8E5E7",
-                    fontSize: "60px",
-                    fontWeight: "600",
-                    fontFamily: "Oswald",
-                  }}
-                >
-                  Admissions and schedule
-                </h1>
-                <p
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  className="text-white mt-5 custom-text3"
-                  style={{
-                    fontSize: "22px",
-                    fontWeight: "500",
-                    fontFamily: "Open Sans",
-                  }}
-                >
-                  For beginners aged 7 and above, Kalasindhu provides a
-                  welcoming entry point. Enrollment is available in May, June,
-                  and October.
-                </p>
-                <p
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  className=" text-white mt-3 custom-text3"
-                  style={{
-                    fontSize: "22px",
-                    fontWeight: "500",
-                    fontFamily: "Open Sans",
-                  }}
-                >
-                  Classes are held on Mondays, Wednesdays, from 5:00 to 8 pm
-                  COVERING 4 batches each focusing on different levels of
-                  learning.
-                </p>
-                <p
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  className=" text-white mt-3 custom-text3"
-                  style={{
-                    fontSize: "22px",
-                    fontWeight: "500",
-                    fontFamily: "Open Sans",
-                  }}
-                >
-                  New beginners batches will be conducted on the weekends.
-                </p>
-                <a
-                  href="https://wa.me/9731098227"
-                  className="btn btn-lg btn-dark rounded mt-5"
-                  style={{
-                    width: "198px",
-                    background: "#FCB541",
-                    fontFamily: "Open Sans",
-                    fontWeight: "bold",
-                    color: "black",
-                  }}
-                >
-                  Enquire
-                </a>
+        <div className="admissions-section">
+          <div className="container admissions-container">
+            <div>
+              <h1 className="admissions-title">Admissions and Schedule</h1>
+              <div className="admissions-line">
+              <p
+                className="admissions-paragraph"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                For beginners aged 7 and above, Kalasindhu provides a welcoming
+                entry point. Enrollment is available in May, June, and October.
+              </p>
+              <p
+                className="admissions-paragraph"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                Classes are held on Mondays, Wednesdays, from 5:00 to 8 pm
+                COVERING 4 batches each focusing on different levels of
+                learning.
+              </p>
+              <p
+                className="admissions-paragraph"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                New beginners batches will be conducted on the weekends.
+              </p>
               </div>
+              <a href="https://wa.me/9731098227" className="admissions-button">
+                Enquire
+              </a>
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     </>

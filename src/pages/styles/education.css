@@ -230,4 +230,66 @@ body {
   border-radius: 5px;
 }
 
+/* admission details */
+.admissions-section {
+  background-color: #003d1b;
+  color: #e8e5e7;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.admissions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Title Styling */
+.admissions-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #e8e5e7;
+  margin-bottom: 1em;
+}
+
+.admissions-line{
+  margin-bottom: 3em;
+  width: 75%;
+}
+
+/* Paragraph Styling */
+.admissions-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e8e5e7;
+  margin-bottom: 15px;
+}
+
+/* Enquire Button */
+.admissions-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #fcb541;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.admissions-button:hover {
+  background-color: #f0990d;
+}
