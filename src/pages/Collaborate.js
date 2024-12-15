@@ -5,9 +5,9 @@ import colImg3 from "../assets/images/c1.png";
 import art from "../assets/images/art.png";
 import { FaCheckCircle } from "react-icons/fa";
 import Footer from "../components/Footer";
-import "./Collaborate.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import "./Collaborate.css";
 
 function Collaborate() {
   useEffect(() => {
@@ -24,24 +24,19 @@ function Collaborate() {
           className="hero-wrapper1 position-relative"
           style={{ marginTop: "5.5em" }}
         >
-          <div className="hero-overlay1 d-flex align-items-center justify-content-around">
-            <div className="d-flex flex-column justify-content-end mt-5">
+          <div className="hero-overlay1">
+            <div className="hero-content">
               <div>
                 <h1
-                  className="display-4 text-white text-center fw-bold"
+                  className=""
                   style={{ fontFamily: "Oswald" }}
                 >
                   Do you want to collaborate??
                 </h1>
                 <p
-                  className="display-5 p-4 px-5 text-white text-center fw-semibold"
+                  className=""
                   data-aos="fade-up"
                   data-aos-duration="2000"
-                  style={{
-                    fontSize: "calc(0.5rem + 1vw)",
-                    fontFamily: "Open Sans",
-                    lineHeight: "1.5",
-                  }}
                 >
                   Whether you're a seasoned artist or a budding talent, let's
                   collaborate to showcase your innovative work-in-progress,

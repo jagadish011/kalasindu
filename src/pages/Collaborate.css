@@ -1,16 +1,23 @@
 /* Existing CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section 1 Styles */
 .hero-wrapper1 {
   height: 100vh;
   background-image: url("../assets/images/Collobaration1.png");
-  background-size: cover;
-  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom; 
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-
 }
 
 .hero-overlay1 {
@@ -25,6 +32,29 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+
+.hero-content h1{
+  font-size: 3.3rem;
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 700;
+  padding: 1px;
+}
+.hero-content p{
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 20px 150px;
+}
+
+/* Section 2 Styles */
 
 .collaborate-s2 h1{
   font-size: 4em;
@@ -57,6 +87,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.content-container {
+  width: 50%;
+  background-color: #f0f0f0;
 }
 /* Mobile View */
 @media (max-width: 768px) {
@@ -113,14 +148,6 @@
     width: 100%; /* Make image full width */
     height: auto; /* Maintain aspect ratio */
   }
-}
-
-
-
-
-.content-container {
-  width: 50%;
-  background-color: #f0f0f0;
 }
 
 @media (max-width: 992px) {
