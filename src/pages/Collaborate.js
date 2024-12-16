@@ -174,7 +174,7 @@ function Collaborate() {
             </div>
           </div>
           <div className="collaborate-s3-img">
-            <img src={colImg2} alt="Hero Image" className="img-fluid mt-5" />
+            <img src={colImg2} alt="Hero Image" className="img-fluid" />
           </div>
         </div>
         {/* showcase your art */}

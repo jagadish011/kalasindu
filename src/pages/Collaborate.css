@@ -253,7 +253,7 @@
 
   /* Section 1 Adjustments */
   .hero-wrapper1 {
-    height: auto;
+    height: 90vh;
     background-size: cover;
     padding: 20px;
   }
@@ -278,7 +278,7 @@
 
   /* Section 2 Adjustments */
   .collaborate-s2 {
-    height: auto;
+    height: 100vh;
   }
 
   .collaborate-s2 h1 {
@@ -317,12 +317,12 @@
   .rent-the-space {
     flex-direction: column;
     margin-top: 2em;
-    padding: 20px;
+    padding: 0px 10px;
   }
 
   .collaborate-s3 {
     width: 100%;
-    padding: 20px;
+    padding: 0px;
   }
 
   .collaborate-s3 h1 {
@@ -335,7 +335,7 @@
 
   .collaborate-s3-img img {
     width: 100%;
-    margin-top: 1em;
+    height: auto;
   }
 
   /* Section 4 Adjustments */
@@ -371,42 +371,6 @@
 
 @media (min-width: 991px) and (max-width: 1200px) {}
 
-@media (max-width: 768px) {
-  .hero-wrapper1 {
-    height: 60vh;
-  }
-
-  .btn {
-    width: 100%;
-    /* Make button width responsive */
-  }
-
-  .collaborate-s3 h1 {
-    font-size: 2em;
-    margin-left: 10px;
-  }
-
-  .collaborate-s3 p {
-    font-size: 1em;
-    margin-left: 10px;
-    width: 90%;
-  }
-
-
-
-  /* Adjust image display in mobile view */
-  .image-container {
-    width: 100%;
-    /* Make image container full width */
-  }
-
-  .image {
-    width: 100%;
-    /* Make image full width */
-    height: auto;
-    /* Maintain aspect ratio */
-  }
-}
 
 @media (max-width: 992px) {
   .laptop-view {
