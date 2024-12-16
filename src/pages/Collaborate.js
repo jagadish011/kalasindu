@@ -27,17 +27,10 @@ function Collaborate() {
           <div className="hero-overlay1">
             <div className="">
               <div className="hero-content-collaborate">
-                <h1
-                  className=""
-                  style={{ fontFamily: "Oswald" }}
-                >
+                <h1 className="" style={{ fontFamily: "Oswald" }}>
                   Do you want to collaborate??
                 </h1>
-                <p
-                  className=""
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
-                >
+                <p className="" data-aos="fade-up" data-aos-duration="2000">
                   Whether you're a seasoned artist or a budding talent, let's
                   collaborate to showcase your innovative work-in-progress,
                   share thoughts, dance for our productions, and explore endless
@@ -66,11 +59,7 @@ function Collaborate() {
           </h1>
           <div className="collaborate-s2-container mx-0">
             <div className="collaborate-s2-img">
-              <img
-                src={colImg3}
-                alt="Hero Image"
-                className="img-fluid"
-              />
+              <img src={colImg3} alt="Hero Image" className="img-fluid" />
             </div>
             <div className="collaborate-s2-text">
               <p
@@ -93,17 +82,10 @@ function Collaborate() {
           </div>
         </section>
 
-        <div
-          className="d-flex justify-content-center mt-5"
-          style={{
-            overflow: "hidden",
-            backgroundColor: "#003D1B",
-            position: "relative",
-          }}
-        >
-          <div className="container">
-            <div className="row align-items-center" style={{ height: "100vh" }}>
-              <div className="col-lg-8 d-flex flex-column justify-content-center align-items-start collaborate-s3">
+        <div className=" rent-the-space">
+          <div className="">
+            <div className="">
+              <div className="collaborate-s3">
                 <h1
                   className="text-white fw-bolder"
                   style={{
@@ -114,10 +96,9 @@ function Collaborate() {
                   Rent the space
                 </h1>
                 <p
-                  className="text-white mt-4"
+                  className="text-white"
                   style={{
                     fontFamily: "Open Sans",
-                    lineHeight: "1.5",
                   }}
                   data-aos="fade-up"
                   data-aos-duration="2000"
@@ -126,8 +107,8 @@ function Collaborate() {
                   concerts, or gatherings. The space is not just aesthetic but
                   also functional with all the necessary amenities.
                 </p>
-                <div className="mt-4 w-100 " style={{ fontSize: "20px" }}>
-                  <div className="row">
+                <div className="rent-list">
+                  <div className="rent-list-items">
                     <div className="col-12 col-md-7 text-white d-flex align-items-center mb-3">
                       <FaCheckCircle
                         className="fs-3"
@@ -146,8 +127,8 @@ function Collaborate() {
                     </div>
                   </div>
                 </div>
-                <div className="py-4 w-100" style={{ fontSize: "20px" }}>
-                  <div className="row">
+                <div className="rent-list">
+                  <div className="rent-list-items">
                     <div className="col-12 col-md-7 text-white d-flex align-items-center mb-3">
                       <FaCheckCircle
                         className="fs-3"
@@ -164,8 +145,8 @@ function Collaborate() {
                     </div>
                   </div>
                 </div>
-                <div className="w-100" style={{ fontSize: "20px" }}>
-                  <div className="row">
+                <div className="rent-list">
+                  <div className="rent-list-items">
                     <div className="col-12 col-md-7 text-white d-flex align-items-center mb-3">
                       <FaCheckCircle
                         className="fs-3"
@@ -184,12 +165,7 @@ function Collaborate() {
                 </div>
                 <a
                   href="https://wa.me/9731098227"
-                  className="btn btn-lg btn-dark rounded fw-bold mt-5 mb-5"
-                  style={{
-                    width: "198px",
-                    background: "#FCB541",
-                    color: "black",
-                  }}
+                  className="btn btn-lg btn-dark rounded fw-bold"
                 >
                   Book Slot
                 </a>
