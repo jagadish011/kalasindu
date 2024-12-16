@@ -20,6 +20,7 @@ function Collaborate() {
         <Navbar />
       </div>
       <div style={{ backgroundColor: "black", overflow: "hidden" }}>
+        {/* do you want to collaborate */}
         <section
           className="hero-wrapper1 position-relative"
           style={{ marginTop: "5.5em" }}
@@ -40,7 +41,7 @@ function Collaborate() {
             </div>
           </div>
         </section>
-
+        {/* kalasindhu is looking for */}
         <section
           className="collaborate-s2"
           style={{
@@ -81,7 +82,7 @@ function Collaborate() {
             </div>
           </div>
         </section>
-
+        {/* rent the space */}
         <div className=" rent-the-space">
           <div className="">
             <div className="">
@@ -172,20 +173,12 @@ function Collaborate() {
               </div>
             </div>
           </div>
-          <div
-            className="d-none d-lg-flex justify-content-center align-items-center"
-            style={{
-              position: "absolute",
-              right: 5,
-              top: "50%",
-              transform: "translateY(-50%)",
-            }}
-          >
+          <div className="collaborate-s3-img">
             <img src={colImg2} alt="Hero Image" className="img-fluid mt-5" />
           </div>
         </div>
-
-        <div className="d-flex flex-column-reverse flex-lg-row laptop-view">
+        {/* showcase your art */}
+        <div className="showcase-your-art">
           <div className="image-container">
             <img
               src={art}
@@ -194,16 +187,16 @@ function Collaborate() {
               style={{ height: "100%", objectFit: "cover" }}
             />
           </div>
-          <div className="content-container d-flex flex-column justify-content-center collaborate-s4">
-            <div className="p-5">
+          <div className="collaborate-s4">
+            <div className="">
               <h1
-                className="text-dark fw-bold mb-4"
+                className="text-dark fw-bold"
                 style={{ fontFamily: "Oswald" }}
               >
                 Showcase your art
               </h1>
               <p
-                className="text-dark mb-4"
+                className="text-dark"
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 style={{ fontFamily: "Open Sans" }}
