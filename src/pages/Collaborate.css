@@ -166,6 +166,10 @@
   color: #000;
 }
 
+.tick-icon {
+  font-size: 1.8rem;
+}
+
 .rent-list {
   width: 100%;
   margin-top: 1em;
@@ -316,26 +320,68 @@
   /* Section 3 Adjustments */
   .rent-the-space {
     flex-direction: column;
-    margin-top: 2em;
-    padding: 0px 10px;
+    height: auto;
+    margin-top: 3em;
+    /* padding: 1em; */
+    overflow: hidden;
   }
 
   .collaborate-s3 {
     width: 100%;
-    padding: 0px;
+    padding: 30px 10px;
+    /* align-items: center; */
   }
 
   .collaborate-s3 h1 {
     font-size: 2rem;
+    text-align: left;
   }
 
   .collaborate-s3 p {
     font-size: 1rem;
+    width: 100%;
+    margin-top: 1em;
+    line-height: 1.4;
+  }
+
+  .tick-icon {
+    font-size: 1.6rem;
+  }
+
+  .rent-list {
+    margin-top: 1em;
+    font-size: 1rem;
+  }
+
+  .rent-list-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rent-list-items div {
+    width: 100%;
+    margin-bottom: 0.5em;
+    text-align: left;
+  }
+
+  .collaborate-s3 a {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1.5em;
+    font-size: 1rem;
+  }
+
+  .collaborate-s3-img {
+    position: static;
+    transform: none;
+    margin-top: 2em;
+    text-align: center;
   }
 
   .collaborate-s3-img img {
     width: 100%;
     height: auto;
+    object-fit: cover;
   }
 
   /* Section 4 Adjustments */

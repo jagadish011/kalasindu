@@ -112,7 +112,7 @@ function Collaborate() {
                   <div className="rent-list-items">
                     <div className="col-12 col-md-7 text-white d-flex align-items-center mb-3">
                       <FaCheckCircle
-                        className="fs-3"
+                        className="tick-icon"
                         style={{ color: "#255A31", marginRight: ".5em" }}
                       />
                       <span className="ms-2">
