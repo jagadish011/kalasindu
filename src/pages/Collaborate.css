@@ -374,7 +374,7 @@
   .collaborate-s3-img {
     position: static;
     transform: none;
-    margin-top: 2em;
+    padding: 20px 10px; 
     text-align: center;
   }
 
