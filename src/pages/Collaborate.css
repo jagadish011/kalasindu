@@ -419,7 +419,166 @@
 }
 
 
-@media (min-width: 631px) and (max-width: 990px) {}
+@media (min-width: 631px) and (max-width: 990px) {
+  /* Section 1 Adjustments */
+  .hero-wrapper1 {
+    height: 70vh;
+    background-size: cover;
+    /* padding: 40px 50px; */
+  }
+
+  .hero-content-collaborate h1 {
+    font-size: 2.5rem;
+    padding: 15px 0;
+    margin-top: 5em;
+  }
+
+  .hero-content-collaborate p {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+  }
+
+  /* Section 2 Adjustments */
+  .collaborate-s2 {
+    height: auto;
+    /* padding: 30px 0; */
+  }
+
+  .collaborate-s2 h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5em;
+    padding: 0 30px;
+  }
+
+  .collaborate-s2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collaborate-s2-img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .collaborate-s2-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .collaborate-s2-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .collaborate-s2-text p {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    padding: 0 0px;
+  }
+
+  .collaborate-s2-text{
+    padding: 0 10px;
+  }
+
+  .collaborate-s2-text a {
+    width: 40%;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  /* Section 3 Adjustments */
+  .rent-the-space {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .collaborate-s3 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .collaborate-s3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .collaborate-s3 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .rent-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .rent-list-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .rent-list-items div {
+    width: 48%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .collaborate-s3-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .collaborate-s3-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Section 4 Adjustments */
+  .showcase-your-art {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .collaborate-s4 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .collaborate-s4 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .collaborate-s4 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .collaborate-s4 a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 
 @media (min-width: 991px) and (max-width: 1200px) {}
 
