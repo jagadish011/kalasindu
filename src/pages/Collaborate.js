@@ -72,9 +72,9 @@ function Collaborate() {
                 className="img-fluid"
               />
             </div>
-            <div className="collaborate-s2">
+            <div className="collaborate-s2-text">
               <p
-                className="text-white m-5"
+                className="text-white"
                 style={{ fontFamily: "Open Sans" }}
                 data-aos="fade-up"
                 data-aos-duration="2000"
@@ -85,13 +85,7 @@ function Collaborate() {
               </p>
               <a
                 href="https://wa.me/9731098227"
-                className="btn btn-lg btn-dark rounded fw-bold mb-2 mx-5"
-                style={{
-                  width: "198px",
-                  background: "#FCB541",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
+                className="btn btn-lg btn-dark rounded"
               >
                 Let's Collaborate
               </a>
