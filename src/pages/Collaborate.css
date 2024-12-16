@@ -374,7 +374,7 @@
   .collaborate-s3-img {
     position: static;
     transform: none;
-    padding: 20px 10px; 
+    padding: 20px 10px;
     text-align: center;
   }
 
@@ -386,27 +386,33 @@
 
   /* Section 4 Adjustments */
   .showcase-your-art {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    height: auto;
   }
 
-  .image-container img {
+  .image-container {
     width: 100%;
-    height: auto;
+    height: 40vh;
+  }
+
+  .collaborate-s4 {
+    width: 100%;
+    padding: 30px 10px;
   }
 
   .collaborate-s4 h1 {
     font-size: 2rem;
-    text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .collaborate-s4 p {
     font-size: 1rem;
-    padding: 10px 20px;
-    text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .collaborate-s4 a {
     width: 100%;
+    padding: 12px;
     margin-top: 1em;
     font-size: 1rem;
   }
@@ -424,9 +430,6 @@
     flex-direction: column;
   }
 
-  .image-container {
-    display: none;
-  }
 
   .content-container {
     width: 100%;

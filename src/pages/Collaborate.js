@@ -183,7 +183,7 @@ function Collaborate() {
             <img
               src={art}
               alt="Art"
-              className="image img-fluid"
+              className="image"
               style={{ height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -208,13 +208,7 @@ function Collaborate() {
               </p>
               <a
                 href="https://wa.me/9731098227"
-                className="btn btn-lg btn-dark rounded fw-bold mt-4"
-                style={{
-                  width: "198px",
-                  background: "black",
-                  color: "#FCB541",
-                  fontWeight: "bold",
-                }}
+                className="btn btn-lg btn-dark rounded fw-bold"
               >
                 Let's Collaborate
               </a>
