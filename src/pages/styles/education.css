@@ -704,7 +704,7 @@ body {
 
   .admissions-title {
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2.5rem;
     margin-top: 1rem;
     color: white;
@@ -727,6 +727,7 @@ body {
 
   .admissions-button {
     width: 44%;
+    text-align: center;
     font-size: 1.1rem;
     padding: 14px;
   }
