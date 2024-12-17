@@ -197,8 +197,8 @@ function Collaborate() {
               </h1>
               <p
                 className="text-dark"
-                data-aos="fade-up"
-                data-aos-duration="2000"
+                // data-aos="fade-up"
+                // data-aos-duration="2000"
                 style={{ fontFamily: "Open Sans" }}
               >
                 Join us in our creative journey! Whether you're a seasoned
