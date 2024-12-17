@@ -43,7 +43,7 @@ function Footer() {
                             <li><a href="tel:+91 123456789"> <i className="bi bi-telephone me-2"></i> 9900579347 </a></li>
                             <li><a href="mailto:info@ieto.com"><i className="bi bi-envelope me-2"></i> Kalasindhu@gmail.com </a>
                             </li>
-                            <li><a href=" "> <i className="bi bi-instagram me-2"></i>@dKalasindhu</a></li>
+                            <li><a href="https://www.instagram.com/kalasindhu_academy" target='_blank'> <i className="bi bi-instagram me-2"></i>@dKalasindhu</a></li>
                         </ul>
                     </div>
                 </div>

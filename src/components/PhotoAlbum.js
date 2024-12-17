@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col, Breadcrumb } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { FaChevronRight } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { FaChevronRight, FaArrowUp } from "react-icons/fa";
 import r1 from "../assets/Gallery_images/r1.jpg";
 import r2 from "../assets/Gallery_images/r5.jpg";
 import r3 from "../assets/Gallery_images/r8.jpg";
@@ -147,17 +147,52 @@ const photos = [
   r73,
   r74,
   r75,
-  r76
+  r76,
 ];
 
 const PhotoAlbum = () => {
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  useEffect(() => {
+    const handelScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handelScroll);
+    return () => {
+      window.removeEventListener("scroll", handelScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <Container>
-      <Breadcrumb className="text-white pt-5">
-        <Breadcrumb.Item>
-          <Link to="/gallery" className='text-decoration-none text-white'>Gallery</Link>
-        </Breadcrumb.Item> <p className='text-white mx-2'> <FaChevronRight /></p>
-        <Breadcrumb.Item active className='text-warning'>Rangarpane</Breadcrumb.Item>
+      <Breadcrumb className="text-white pt-5 text-decoration-none">
+        <Breadcrumb.Item
+          className="text-decoration-none text-white mt-1 "
+          style={{ textDecoration: "none" }}
+        >
+          <Link to="/gallery" className="text-decoration-none text-white ">
+            Gallery
+          </Link>
+        </Breadcrumb.Item>{" "}
+        <p className="text-white mx-2">
+          {" "}
+          <FaChevronRight />
+        </p>
+        <Breadcrumb.Item active className="text-warning mt-1">
+          Rangarpane
+        </Breadcrumb.Item>
       </Breadcrumb>
       <h2
         style={{ fontFamily: "Oswald", marginBottom: "40px" }}
@@ -182,6 +217,22 @@ const PhotoAlbum = () => {
           </Col>
         ))}
       </Row>
+      {showScrollButton && (
+        <button onClick={scrollToTop} style={{
+          position: "fixed",
+          bottom: "40px",
+          right: "20px",
+          backgroundColor: "white",
+          border: "none",
+          borderRadius: "50%",
+          padding: "10px",
+          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+          cursor: "pointer",
+          zIndex: 1000,
+        }}>
+          <FaArrowUp size={20} color="black"/>
+        </button>
+      )}
     </Container>
   );
 };
