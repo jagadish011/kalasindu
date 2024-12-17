@@ -19,65 +19,97 @@
     text-align: center;
 }
 
+.support-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.support-overlay h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
 .s-button {
     width: 18rem;
-  text-align: center;
-  display: inline-block;
-  padding: 10px 25px;
-  /* margin-left: 3em; */
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: black;
-  background-color: #fcb541;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-/* Box Styles */
-.box {
-    width: 100%;
-    padding: 40px 60px;
-}
-
-/* General Box Styles */
-.box h1 {
-    font-size: 2.5rem;
-    text-shadow: 0px 0px 5px #000;
-}
-
-.box p {
-    font-size: 1.25rem;
-    margin-top: 50px;
-}
-
-.card {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: #fcb541;
     border: none;
-    border-radius: 15px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-title {
-    font-weight: 600;
-  }
-  
-  .card-body i,
-  .card-body svg {
-    transition: color 0.3s;
-  }
-  
-  .card-body i:hover,
-  .card-body svg:hover {
-    color: #ff6347; /* Example hover color */
-  }
-  
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.support-container {
+    padding: 50px;
+    margin-top: 1em;
+}
+
+.support-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.support-list {
+    margin-top: 1em;
+}
+
+.support-list-items {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.support-list-items p {
+    font-size: 1.2rem;
+}
+
+.facebook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facebook-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    padding: 5px;
+}
+
+.support-f-i{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.support-youtube{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {
