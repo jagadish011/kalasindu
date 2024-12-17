@@ -19,6 +19,23 @@
     text-align: center;
 }
 
+.s-button {
+    width: 18rem;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 25px;
+  /* margin-left: 3em; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #fcb541;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
 /* Box Styles */
 .box {
     width: 100%;
@@ -35,6 +52,32 @@
     font-size: 1.25rem;
     margin-top: 50px;
 }
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .card-body i,
+  .card-body svg {
+    transition: color 0.3s;
+  }
+  
+  .card-body i:hover,
+  .card-body svg:hover {
+    color: #ff6347; /* Example hover color */
+  }
+  
 
 /* Responsive Design */
 @media (max-width: 1200px) {
