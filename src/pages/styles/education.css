@@ -538,7 +538,7 @@ body {
     margin-top: 4rem;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: left;
   }
 
   .education-image {
@@ -564,7 +564,7 @@ body {
   }
 
   .enquire-button {
-    width: 100%;
+    width: 44%;
     font-size: 1.1rem;
     padding: 14px;
     text-align: center;
@@ -605,7 +605,7 @@ body {
     margin-bottom: 1.5rem;
     margin-top: 2rem;
     color: white;
-    text-align: center;
+    text-align: left;
   }
 
   .curriculum-list {
@@ -622,7 +622,7 @@ body {
   }
 
   .curriculum-button {
-    width: 100%;
+    width: 44%;
     font-size: 1.1rem;
     padding: 14px;
     text-align: center;
@@ -645,7 +645,7 @@ body {
   }
 
   .added-benefits-title {
-    text-align: center;
+    text-align: left;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: #000;
@@ -664,7 +664,7 @@ body {
   }
 
   .added-benefits-button {
-    width: 100%;
+    width: 44%;
     font-size: 1.1rem;
     padding: 14px;
     border-radius: 5px;
@@ -703,8 +703,8 @@ body {
   }
 
   .admissions-title {
-    text-align: center;
-    font-size: 2.5rem;
+    text-align: left;
+    font-size: 3rem;
     margin-bottom: 2.5rem;
     margin-top: 1rem;
     color: white;
@@ -726,7 +726,7 @@ body {
   }
 
   .admissions-button {
-    width: 100%;
+    width: 44%;
     font-size: 1.1rem;
     padding: 14px;
   }
