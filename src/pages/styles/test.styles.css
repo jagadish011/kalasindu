@@ -19,100 +19,180 @@
     text-align: center;
 }
 
-/* Box Styles */
-.box {
+.support-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 40px 60px;
+    height: 100%;
+    color: white;
+    text-align: center;
 }
 
-/* General Box Styles */
-.box h1 {
-    font-size: 2.5rem;
-    text-shadow: 0px 0px 5px #000;
+.support-overlay h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
 }
 
-.box p {
-    font-size: 1.25rem;
-    margin-top: 50px;
+.s-button {
+    width: 18rem;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: #fcb541;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
+
+.support-container {
+    padding: 50px;
+    margin-top: 1em;
+}
+
+.support-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.support-list {
+    margin-top: 1em;
+}
+
+.support-list-items {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.support-list-items p {
+    font-size: 1.2rem;
+}
+
+.facebook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facebook-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    padding: 5px;
+}
+
+.support-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+
+.support-f-i{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.support-youtube{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .box {
-        padding: 20px 40px;
-    }
-
-    .box h1 {
-        font-size: 2rem;
-    }
-
-    .box p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 992px) {
+@media screen and (min-width: 320px) and (max-width: 630px) {
     .section-1 {
-        background-attachment: scroll;
-        background-position: center;
+      height: 70vh;
+      background-attachment: scroll; 
+    }
+  
+    .support-overlay h1 {
+      font-size: 2rem; 
+      margin-bottom: 1rem;
+    }
+  
+    .s-button {
+      width: 14rem;
+      font-size: 0.9rem;
+      padding: 8px 20px; 
+    }
+  
+    .support-container {
+      padding: 20px; 
+      margin-top: 0.5em;
+    }
+  
+    .support-container h1 {
+      font-size: 2rem; 
+      font-weight: 600; 
+    }
+  
+    .support-list {
+      margin-top: 1em;
+    }
+  
+    .support-list-items {
+      font-size: 1.4rem; 
+      font-weight: 600;
+    }
+  
+    .support-list-items p {
+      font-size: 1rem; 
+    }
+  
+    .facebook-container {
+      width: 286px; 
+      height: auto; 
+      padding: 20px; 
+      margin: 20px auto; 
+    }
+  
+    .facebook-image {
+      width: 80px; 
+      height: 80px;
+      border-radius: 50%;
     }
 
-    .box {
-        padding: 15px 30px;
+    .support-instagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        overflow: hidden;
     }
-
-    .box h1 {
-        font-size: 1.875rem;
+  
+    .support-f-i {
+      flex-direction: column; 
+      gap: 20px; 
+      justify-content: center;
+      align-items: center;
     }
-
-    .box p {
-        font-size: 0.9375rem;
+  
+    .support-youtube {
+      width: 100%; 
+      padding: 10px;
+      overflow: hidden; 
     }
-}
-
-@media (max-width: 768px) {
-    .section-1 {
-        background-attachment: scroll;
-        background-position: center;
-    }
-
-    .box {
-        padding: 10px 20px;
-    }
-
-    .box h1 {
-        font-size: 1.75rem;
-    }
-
-    .box p {
-        font-size: 0.875rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .section-1 {
-        background-attachment: scroll;
-        background-position: center;
-    }
-
-    .box {
-        padding: 5px 10px;
-    }
-
-    .box h1 {
-        font-size: 1.5rem;
-    }
-
-    .box p {
-        font-size: 0.75rem;
-    }
-
-    .hero-overlay .btn {
-        width: 80%;
-        font-size: 1rem;
-    }
-
-    .social-icon .fs-1 {
-        font-size: 2rem;
-    }
-}
+  }
+  

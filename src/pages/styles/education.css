@@ -1,0 +1,875 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Education Section Styles */
+.education {
+  height: 100vh;
+  display: flex;
+  margin-top: 1.5em;
+  align-items: center;
+  padding: 40px;
+  gap: 10rem;
+}
+
+.education-content {
+  flex: 1;
+  gap: 30px;
+  max-width: 50%;
+}
+
+.education-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+  margin-bottom: 1em;
+}
+
+.education-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3em;
+  color: #333;
+}
+
+.enquire-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fcb541;
+  background-color: #0e0e0e;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.enquire-button:hover {
+  background-color: #333;
+}
+
+.education-image {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Curriculum Section */
+
+.curriculum-section {
+  background-color: #080808;
+  color: #e8e5e7;
+  overflow: hidden;
+  padding: 40px 20px;
+}
+
+.curriculum-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Image Section */
+.curriculum-image {
+  flex: 1;
+  max-width: 40%;
+  text-align: center;
+}
+
+.curriculum-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Section */
+.curriculum-content {
+  flex: 1;
+  max-width: 55%;
+}
+
+.curriculum-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  margin-bottom: 1em;
+}
+
+.curriculum-list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-bottom: 3em;
+}
+
+.curriculum-list li {
+  margin-bottom: 1em;
+}
+
+.curriculum-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #fcb541;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.curriculum-button:hover {
+  background-color: #f4ac06fe;
+}
+
+/* added benifits */
+
+
+.added-benefits-section {
+  background-color: #e8e5e7;
+  color: #333;
+  padding: 40px 40px;
+}
+
+.added-benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Text Section */
+.added-benefits-content {
+  flex: 1;
+  max-width: 55%;
+}
+
+.added-benefits-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #080808;
+  margin-bottom: 1em;
+}
+
+.added-benefits-list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-bottom: 2em;
+}
+
+.added-benefits-list li {
+  margin-bottom: 15px;
+}
+
+/* Enquire Button */
+.added-benefits-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fcb541;
+  background-color: #0e0e0e;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.added-benefits-button:hover {
+  background-color: #555;
+}
+
+/* Image Section */
+.added-benefits-image {
+  flex: 1;
+  max-width: 40%;
+  text-align: center;
+}
+
+.added-benefits-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* admission details */
+.admissions-section {
+  background-color: #003d1b;
+  color: #e8e5e7;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.admissions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Title Styling */
+.admissions-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #e8e5e7;
+  margin-bottom: 1em;
+}
+
+.admissions-line {
+  margin-bottom: 3em;
+  width: 75%;
+}
+
+/* Paragraph Styling */
+.admissions-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e8e5e7;
+  margin-bottom: 15px;
+}
+
+/* Enquire Button */
+.admissions-button {
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #fcb541;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.admissions-button:hover {
+  background-color: #f0990d;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 320px) and (max-width: 630px) {
+
+  /* Education Section */
+  .education {
+    display: flex;
+    flex-direction: column;
+    /* Ensure column layout */
+    height: auto;
+    padding: 20px;
+    gap: 2rem;
+  }
+
+  .education-content {
+    /* order: 2;  */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-title {
+    /* order : 1; */
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .education-image {
+    order: 1;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .education-d {
+    order: 2;
+  }
+
+  .education-description {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    /* order: 3; */
+  }
+
+  .enquire-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    text-align: center;
+    order: 3;
+  }
+
+  /* curriculum */
+  .curriculum-section {
+    padding: 20px;
+  }
+
+  .curriculum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .curriculum-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .curriculum-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .curriculum-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .curriculum-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+
+  .curriculum-list {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0;
+    margin: 1rem 0;
+    list-style: decimal inside;
+  }
+
+  .curriculum-list li {
+    margin-bottom: 1rem;
+  }
+
+  .curriculum-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    text-align: center;
+  }
+
+  /* added benifits */
+  .added-benefits-section {
+    padding: 20px;
+  }
+
+  .added-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .added-benefits-content {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .added-benefits-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+
+  .added-benefits-list {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0;
+    margin: 1rem 0;
+    list-style: decimal inside;
+  }
+
+  .added-benefits-list li {
+    margin-bottom: 1rem;
+  }
+
+  .added-benefits-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #0e0e0e;
+    color: #fcb541;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .added-benefits-button:hover {
+    background-color: #333;
+  }
+
+  .added-benefits-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .added-benefits-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  /* admissions */
+
+  .admissions-section {
+    padding: 20px; 
+  }
+
+  .admissions-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; 
+  }
+
+  .admissions-title {
+    text-align: center;
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  .admissions-line {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .admissions-paragraph {
+    
+    font-size: 1rem; 
+    line-height: 1.5;
+    margin: 0; 
+    color: #e8e5e7; 
+  }
+  .admissions-button {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 631px) and (max-width: 990px) {
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 40px;
+    gap: 3rem;
+  }
+
+  .education-content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-title {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .education-image {
+    order: 1;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .education-d {
+    order: 2;
+  }
+
+  .education-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+  }
+
+  .enquire-button {
+    width: 44%;
+    font-size: 1.1rem;
+    padding: 14px;
+    text-align: center;
+    order: 3;
+  }
+
+  .curriculum-section {
+    padding: 40px;
+  }
+
+  .curriculum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .curriculum-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .curriculum-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .curriculum-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .curriculum-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: left;
+  }
+
+  .curriculum-list {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style: decimal inside;
+  }
+
+  .curriculum-list li {
+    margin-bottom: 1.5rem;
+  }
+
+  .curriculum-button {
+    width: 44%;
+    font-size: 1.1rem;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .added-benefits-section {
+    padding: 40px;
+  }
+
+  .added-benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .added-benefits-content {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .added-benefits-title {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+  }
+
+  .added-benefits-list {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style: decimal inside;
+  }
+
+  .added-benefits-list li {
+    margin-bottom: 1.5rem;
+  }
+
+  .added-benefits-button {
+    width: 44%;
+    font-size: 1.1rem;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #0e0e0e;
+    color: #fcb541;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .added-benefits-button:hover {
+    background-color: #333;
+  }
+
+  .added-benefits-image {
+    order: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .added-benefits-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .admissions-section {
+    padding: 40px;
+  }
+
+  .admissions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .admissions-title {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  .admissions-line {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .admissions-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #e8e5e7;
+  }
+
+  .admissions-button {
+    width: 44%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .education {
+    height: auto; 
+    gap: 6rem; 
+  }
+
+  .education-content {
+    max-width: 60%; 
+    gap: 20px;
+  }
+
+  .education-title {
+    font-size: 2.8rem; 
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+
+  .education-description {
+    font-size: 1.1rem; 
+    line-height: 1.5;
+  }
+
+  .enquire-button {
+    width: 9rem;
+    padding: 12px 20px; 
+  }
+
+  .education-image {
+    max-width: 40%;
+     
+  }
+
+  .curriculum-section {
+    padding: 30px 15px; 
+  }
+
+  .curriculum-container {
+    gap: 15px; 
+  }
+
+  .curriculum-title {
+    font-size: 2.8rem;
+  }
+
+  .curriculum-list {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .curriculum-button {
+    width: 9rem;
+    padding: 12px 20px;
+  }
+
+  .added-benefits-section {
+    padding: 30px 35px;
+  }
+
+  .added-benefits-container {
+    gap: 15px;
+  }
+
+  .added-benefits-title {
+    font-size: 2.8rem;
+  }
+
+  .added-benefits-list {
+    font-size: 1.1rem;
+  }
+
+  .added-benefits-button {
+    width: 9rem;
+    padding: 12px 20px;
+  }
+
+  .admissions-section {
+    background-color: #003d1b;
+    color: #e8e5e7;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admissions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Title Styling */
+  .admissions-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #e8e5e7;
+    margin-bottom: 1em;
+  }
+  
+  .admissions-line {
+    margin-bottom: 3em;
+    width: 75%;
+  }
+  
+  /* Paragraph Styling */
+  .admissions-paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e8e5e7;
+    margin-bottom: 15px;
+  }
+  
+  /* Enquire Button */
+  .admissions-button {
+    width: 9rem;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: #fcb541;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admissions-button:hover {
+    background-color: #f0990d;
+  }
+}
+

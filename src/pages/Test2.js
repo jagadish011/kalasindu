@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./styles/test2.styles.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import {
@@ -13,6 +12,7 @@ import { SlCalender } from "react-icons/sl";
 import { IoLocationOutline } from "react-icons/io5";
 import CountdownCard from "../components/CountdownCard";
 import { useLocation } from "react-router-dom";
+import "./styles/test2.styles.css";
 
 const Test2 = () => {
   const [event, setEvent] = useState(1);
@@ -51,7 +51,7 @@ const Test2 = () => {
     };
   }
 
-  const targetDate = "2023-11-19T18:00:00"; // June 22nd, 2024, 6:00 PM
+  const targetDate = "2023-11-20T18:00:00"; // June 22nd, 2024, 6:00 PM
 
   const [timer, setTimer] = useState(getTimeUntilTargetDate(targetDate));
 
@@ -103,13 +103,13 @@ const Test2 = () => {
               }}
               className="font-weight-bold"
             >
-              Upcoming Events
+              {timer ? "Upcoming Events" : "Completed Events"}
             </h1>
             <div
-              className="d-flex flex-column mt-5"
+              className="d-flex flex-column mt-5 events-details"
               style={{ fontFamily: "Open Sans" }}
             >
-              <div className="d-flex events-details">
+              <div className="d-flex">
                 <div
                   style={
                     event == 1
@@ -121,14 +121,16 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p className="events-details-p"
+                  <p
+                    className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
                     }}
                   >
                     22
                   </p>
-                  <p className="events-details-d"
+                  <p
+                    className="events-details-d"
                     style={{
                       fontFamily: "Open Sans",
                     }}
@@ -161,14 +163,16 @@ const Test2 = () => {
                         }
                   }
                 >
-                  <p className="events-details-p"
+                  <p
+                    className="events-details-p"
                     style={{
                       fontFamily: "Open Sans",
                     }}
                   >
                     26
                   </p>
-                  <p className="events-details-d"
+                  <p
+                    className="events-details-d"
                     style={{
                       fontFamily: "Open Sans",
                     }}
@@ -199,22 +203,20 @@ const Test2 = () => {
                 style={{ height: "60vh" }}
               />
             </div>
-            <div
-              className="timer"
-            >
+            <div className="timer">
               {timer ? (
-                <div
-                  className="timer-card"
-                >
+                <div className="timer-card">
                   <div>
-                    <p className="timer-card-time"
+                    <p
+                      className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
                       }}
                     >
                       {timer.days}
                     </p>
-                    <p className="timer-card-d"
+                    <p
+                      className="timer-card-d"
                       style={{
                         fontFamily: "Open Sans",
                       }}
@@ -223,14 +225,16 @@ const Test2 = () => {
                     </p>
                   </div>
                   <div>
-                    <p className="timer-card-time"
+                    <p
+                      className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
                       }}
                     >
                       {timer.hours}
                     </p>
-                    <p className="timer-card-d"
+                    <p
+                      className="timer-card-d"
                       style={{
                         fontFamily: "Open Sans",
                       }}
@@ -239,14 +243,16 @@ const Test2 = () => {
                     </p>
                   </div>
                   <div>
-                    <p className="timer-card-time"
+                    <p
+                      className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
                       }}
                     >
                       {timer.minutes}
                     </p>
-                    <p className="timer-card-d"
+                    <p
+                      className="timer-card-d"
                       style={{
                         fontFamily: "Open Sans",
                       }}
@@ -255,14 +261,16 @@ const Test2 = () => {
                     </p>
                   </div>
                   <div>
-                    <p className="timer-card-time"
+                    <p
+                      className="timer-card-time"
                       style={{
                         fontFamily: "Open Sans",
                       }}
                     >
                       {timer.seconds}
                     </p>
-                    <p className="timer-card-d"
+                    <p
+                      className="timer-card-d"
                       style={{
                         fontFamily: "Open Sans",
                       }}
@@ -272,12 +280,8 @@ const Test2 = () => {
                   </div>
                 </div>
               ) : (
-                <div
-                  className="time-end"
-                >
-                  <div
-                    className="time-end-card"
-                  >
+                <div className="time-end">
+                  <div className="time-end-card">
                     <p
                       style={{
                         fontFamily: "Open Sans",
@@ -289,15 +293,9 @@ const Test2 = () => {
                 </div>
               )}
             </div>
-            <div
-              className="event-details"
-            >
-              <div
-                className="event-details-card"
-              >
-                <h3 className="">
-                  Events Details
-                </h3>
+            <div className="event-details">
+              <div className="event-details-card">
+                <h3 className="">Events Details</h3>
                 <div className="event-details-card-details">
                   <div className="event-details-card-details-content">
                     <SlCalender className="events-details-icon" />{" "}
@@ -311,9 +309,11 @@ const Test2 = () => {
 
                   <div className="d-flex justify-content-start ">
                     <IoLocationOutline
-                      className="events-details-icon" style={{
-                        fontSize: "1.2em",}}
-                    />{" "}
+                      className="events-details-icon"
+                      style={{
+                        fontSize: "1.2em",
+                      }}
+                    />
                     <p className="ms-2">{eventsData[event - 1].location}</p>
                   </div>
 
@@ -323,19 +323,21 @@ const Test2 = () => {
                   </div>
                 </div>
                 <p>{eventsData[event - 1].desc}</p>
-                <a
-                  href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg rounded mt-5 py-3 px-3"
-                  style={{
-                    width: "auto",
-                    background: "#FCB541",
-                    fontFamily: "Open Sans",
-                    fontWeight: "700",
-                    color: "black",
-                  }}
-                >
-                  Join Whatsapp group for updates
-                </a>
+                <div className="whatsapp-btn"> 
+                  <a
+                    href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
+                    className="btn btn-lg rounded py-3 px-3"
+                    style={{
+                      width: "auto",
+                      background: "#FCB541",
+                      fontFamily: "Open Sans",
+                      fontWeight: "700",
+                      color: "black",
+                    }}
+                  >
+                    Join Whatsapp group for updates
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { FaFacebook } from "react-icons/fa";
-import "../assets/styles/core.css";
+import facebook from "../assets/images/Collobaration1.png";
+// import "../assets/styles/core.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AOS from "aos";
@@ -9,45 +9,47 @@ import "./styles/test.styles.css";
 
 function Support() {
   useEffect(() => {
-    AOS.init();
+    const instagramScript = document.createElement("script");
+    instagramScript.src = "https://static.elfsight.com/platform/platform.js";
+    instagramScript.async = true;
+    document.body.appendChild(instagramScript);
+
+    const youtubeScript = document.createElement("script");
+    youtubeScript.src = "https://static.elfsight.com/platform/platform.js";
+    youtubeScript.async = true;
+    document.body.appendChild(youtubeScript);
+
+    return () => {
+      document.body.removeChild(instagramScript);
+      document.body.removeChild(youtubeScript);
+    };
   }, []);
 
   return (
     <>
       <Navbar />
-
-      <div>
-        <div className="section-1 box">
-          <div className="hero-overlay  text-center d-flex flex-column justify-content-center align-items-center text-white">
+      <div style={{ backgroundColor: "#E8E5E7" }}>
+        <div className="section-1">
+          <div className="support-overlay ">
             <h1
               style={{
-                fontWeight: "600",
                 fontFamily: "Oswald",
-                marginBottom: "40px",
               }}
             >
               Support Us
             </h1>
-            <a href="#support-details" className=" rounded fw-bold support-btn">
+            <a href="#support-details" className="rounded fw-bold s-button">
               Learn how to support us
             </a>
           </div>
         </div>
 
-        <section
-          id="support-details"
-          className="p-4"
-          style={{ backgroundColor: "#E8E5E7" }}
-        >
-          <div className="container p-4 mt-5 mb-5">
-            <p className="fs-1 fw-bolder">Support us..</p>
-            <div
-              className="text-start mt-4"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <p className="fw-bolder fs-3">By sponsoring us</p>
-              <p className="text-start text-black">
+        <section className="support-details">
+          <div className="support-container">
+            <h1 className="">Support us..</h1>
+            <div className="support-list">
+              <p className="support-list-items">By sponsoring us</p>
+              <p className="">
                 Support our Indian classical dance class by becoming a sponsor
                 of our major festivals, Nirantara Narmada and Navarasa
                 Navaratri. Your sponsorship in money and other kind will help
@@ -57,12 +59,8 @@ function Support() {
               </p>
             </div>
 
-            <div
-              className="text-start mt-3"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <p className="fw-bolder fs-3">By Donating</p>
+            <div className="support-list">
+              <p className="support-list-items">By Donating</p>
               <p>
                 Contribute to our dance class and festivals through donations.
                 Your generosity directly supports our mission of providing
@@ -70,54 +68,61 @@ function Support() {
               </p>
             </div>
 
-            <div
-              className="text-start mt-3"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <p className="fw-bolder fs-3">By Following us on social media </p>
+            <div className="support-list">
+              <p className="support-list-items">
+                By Following us on social media{" "}
+              </p>
               <p>
-                Stay connected with us on Instagram, Facebook and Youtube for
-                exclusive updates, behind-the-scenes content, Aesthetic dance
-                videos and event announcements. Your support helps us reach a
+                Stay connected with us on Instagram, Facebook, and YouTube for
+                exclusive updates, behind-the-scenes content, aesthetic dance
+                videos, and event announcements. Your support helps us reach a
                 wider audience and promote the beauty of Indian classical dance.
               </p>
             </div>
+          </div>
 
-            <div className="row justify-content-center">
-              <div className="col-md-4 col-sm-6">
-                <div className=" text-center text-primary">
-                  <a
-                    className="text-decoration-none social-icon"
-                    href="https://www.facebook.com/kalasindhuacademy"
-                  >
-                    <FaFacebook className="fs-1 my-2 " />
-                    <p>Facebook</p>
-                  </a>
+          <div className="support-social-card">
+            <div className="support-f-i">
+              <div className="support-facebook">
+                <div className="facebook-container">
+                  <div className="facebook-body text-center">
+                    <a
+                      href="https://www.facebook.com/kalasindhuacademy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-decoration-none"
+                    >
+                      <img
+                        src={facebook}
+                        alt="Facebook"
+                        className="facebook-image"
+                      />
+                      <p className="mt-2 text-primary">Facebook</p>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/kalasindhuacademy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary mt-3"
+                    >
+                      Follow Us on Facebook
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="social-icon text-center">
-                  <a
-                    className="text-decoration-none social-icon text-secondary"
-                    href="https://www.instagram.com/kalasindhu_academy/"
-                  >
-                    <i className="bi bi-instagram fs-1"></i>
-                    <p>Instagram</p>
-                  </a>
-                </div>
+              <div className="support-instagram">
+                <div
+                  className="elfsight-app-6be1bfd9-94f3-43ec-aa7f-e3cd4ef106e1"
+                  data-elfsight-app-lazy
+                ></div>
               </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="social-icon text-center text-danger">
-                  <a
-                    className="text-decoration-none social-icon text-danger"
-                    href="https://www.youtube.com/@kalasindhuacademyofdancean1324"
-                  >
-                    <i className="bi bi-youtube fs-1"></i>
-                    <p>YouTube</p>
-                  </a>
-                </div>
-              </div>
+            </div>
+
+            <div className="support-youtube">
+              <div
+                className="elfsight-app-817dc0c9-2251-4808-88b7-7d28766289b4"
+                data-elfsight-app-lazy
+              ></div>
             </div>
           </div>
         </section>

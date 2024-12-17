@@ -11,22 +11,27 @@
 }
 
 .content-box h1 {
-  font-size: 5em;
   font-family: "Oswald";
   font-weight: 700;
+  margin-bottom: 1em;
+  font-size: 4em;
   color: white;
 }
+
 .content-box p {
   font-size: 1.7em;
   font-family: "Open Sans";
   line-height: 1.5;
   color: white;
 }
-.content-box h1{
-  margin-bottom: 1em;
-  font-size: 4em;
+
+.navarasa-navaratri {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-content-box
+
 /*! section 2  */
 .section-navaratri {
   background: #003d1b;
@@ -39,7 +44,6 @@ content-box
   background: #003d1b;
   white-space: nowrap;
   font-weight: 900;
-  animation: animate 40s linear infinite;
   width: 250px;
 }
 
@@ -48,6 +52,7 @@ content-box
   overflow: hidden;
   height: 880px;
   width: 700px;
+  animation: animate 40s linear infinite;
   transform: rotate(-90deg) translateY(200px) translateX(-20px);
 }
 
@@ -95,19 +100,28 @@ content-box
   overflow: hidden;
   padding-top: 50px;
 }
+
+.section-3-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .section-3-2-image img {
   height: 50vh;
 }
+
 .section-3-2-text {
   width: 60%;
   height: 102px;
   margin-right: 5em;
 }
+
 .section-3-2-text h1 {
   font-size: 3.5em;
-  color: white;
+  color: #255a31;
   font-family: "Oswald";
 }
+
 .section-3-2-text p {
   font-size: 1em;
   color: white;
@@ -118,12 +132,15 @@ content-box
 }
 
 /*! section 4  */
-/* .section-4 {
-    background-color: #330A0A;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-  } */
+.section-4 {
+  background-color: #330A0A;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .section-4-img img {
   width: 80%;
 }
@@ -131,12 +148,15 @@ content-box
 .section-4-1 {
   margin-top: 50px;
 }
+
 .section-4-1 h1 {
   font-size: 51px;
   font-weight: 600;
   color: white;
   font-family: "Oswald";
+  margin-top: 1em;
 }
+
 .section-4-1 p {
   font-size: 18px;
   padding-top: 1.5em;
@@ -145,25 +165,354 @@ content-box
   color: white;
   font-family: "Open Sans";
 }
+
 .section-4-1 a {
   width: 20em;
+  margin-top: 1em;
   background-color: #fcb541;
   font-family: "Open Sans";
   font-weight: 700;
   color: #000;
 }
+
 .section-4-1 a:hover {
-  background-color: #fcb541; /* Keep the background color the same */
-  color: #000; /* Change text color to white */
+  background-color: #fcb541;
+  color: #000;
 }
+
 
 @media screen and (min-width:320px) and (max-width: 630px) {
   .content-box h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Oswald";
     font-weight: 700;
+    padding: 1px;
+  }
+
+  .text-section {
+    max-width: 100%;
+    margin-bottom: -1rem;
+  }
+
+  .navarasa-navaratri {
+    height: 132vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .navarasa-navaratri .image-section {
+    order: -1;
+  }
+
+  .navarasa-navaratri .text-section {
+    order: 1;
+  }
+
+  .section-3 {
+    height: 110vh;
+  }
+
+  .section-3-2 {
+    display: block;
+  }
+
+  .section-3-2-image img {
+    height: 50vh;
+    padding-left: 10px;
+  }
+
+  .section-3-2-text {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-3-2-text h1 {
+    font-size: 2em;
+    text-align: left;
+    color: #255a31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+  }
+
+  .section-3-2-text p {
+    font-size: 0.7em;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+
+  .section-4 {
+    height: 75vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .section-4-1 h1 {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    font-family: "Oswald";
+    margin-top: 0.5em;
+  }
+
+  .section-4-1 p {
+    font-size: .7em;
+    padding-top: 1.5em;
+    padding-bottom: 0px;
+    line-height: 2;
+    color: white;
+    font-family: "Open Sans";
+  }
+
+  .section-4-1 a {
+    width: auto;
+    margin-top: 1.5em;
+    font-size: 1em;
+    background-color: #fcb541;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #000;
+  }
+
+  .section-4-1 a:hover {
+    background-color: #f39d13;
+    color: #000;
+  }
+
+  .section-4-img img {
+    display: none;
   }
 }
+
+@media (min-width: 631px) and (max-width: 990px) {
+  .text-section {
+    max-width: 100%;
+    margin-bottom: -1rem;
+  }
+
+  .navarasa-navaratri {
+    height: 132vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .text-content {
+    margin-top: 1.4em;
+    font-size: 1.3em;
+  }
+
+  .navarasa-navaratri .image-section {
+    order: -1;
+  }
+
+  .navarasa-navaratri .text-section {
+    order: 1;
+  }
+
+  .section-3-2 {
+    display: block;
+    height: 100vh;
+  }
+
+  .section-3-2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-3-2-image img {
+    height: 50vh;
+  }
+
+  .section-3-2-text {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .section-3-2-text h1 {
+    font-size: 3em;
+    text-align: left;
+    color: #255a31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+  }
+
+  .section-3-2-text p {
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+
+  .section-4 {
+    background-color: #330A0A;
+    height: 110vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .section-4-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-4-1 h1 {
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    font-family: "Oswald";
+  }
+
+  .section-4-1 p {
+    font-size: 1.2em;
+    padding-top: 1em;
+    line-height: 2;
+    color: white;
+    font-family: "Open Sans";
+  }
+
+  .section-4-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-4-1 a {
+    width: auto;
+    margin-top: .8em;
+    background-color: #fcb541;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #000;
+  }
+
+  .section-4-1 a:hover {
+    background-color: #f39d13;
+    color: #000;
+  }
+
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .content-box h1 {
+    font-family: "Oswald";
+    font-weight: 700;
+    margin-bottom: .5em;
+    font-size: 5em;
+    color: white;
+  }
+
+  .content-box p {
+    font-size: 1.8em;
+    line-height: 1.5;
+  }
+
+  .navarasa-navaratri {
+    height: 70vh;
+  }
+
+  .text-content {
+    margin-top: 1.4em;
+    padding-right: 40px;
+    font-size: 1.2em;
+  }
+
+  .marquee-text {
+    color: #fcb541;
+    font-size: 4.5em;
+    background: #003d1b;
+    white-space: nowrap;
+    font-weight: 900;
+    width: 10px;
+  }
+
+  .marquee {
+    height: 16em;
+    width: 15em;
+    transform: rotate(0deg) translateY(100px) translateX(0px);
+  }
+
+  .image-section {
+    font-size: 1.1em;
+  }
+
+  .section-3 {
+    height: 77vh;
+  }
+  .section-3-2{
+    width: 112%;
+    margin-bottom: 2em;
+  }
+  .section-3-2-text h1 {
+    font-size: 5em;
+    padding-left: 40px;
+  }
+
+  .section-3-2-text p {
+    font-size: 1em;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .section-3-2-image img {
+    height: 45vh;
+  }
+
+  .section-3-2-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .section-4 {
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .section-4-1 h1 {
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+    font-family: "Oswald";
+  }
+  .section-4-1 p {
+    font-size: 1.2em;
+    padding-top: 1em;
+    line-height: 2;
+    color: white;
+    font-family: "Open Sans";
+  }
+  .section-4-1 a {
+    width: auto;
+    margin-top: .8em;
+    background-color: #fcb541;
+    font-size: 2em;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #000;
+  }
+
+  .section-4-1 a:hover {
+    background-color: #f39d13;
+    color: #000;
+  }
+}
+
 /* Tablet view adjustments */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .section-2-1 {
@@ -172,28 +521,22 @@ content-box
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+
   .content-box {
     padding: 4em 2em;
   }
 
-  .content-box h1 {
-    font-size: 4.5em;
-  }
-  .content-box p {
-    font-size: 1.2em;
-    line-height: 1.5;
-  }
 
   /*! section 2  */
   .marquee-text {
     font-size: 4em;
   }
 
-  .marquee {
+  /* .marquee {
     height: 16em;
     width: 900px;
     transform: rotate(-90deg) translateY(100px) translateX(-20px);
-  }
+  } */
 
   .text-section {
     max-width: 100%;
@@ -216,54 +559,18 @@ content-box
   }
 
   /*! section 3  */
-  .section-3 .d-none {
+  /* .section-3 .d-none {
+    display: flex;
+  } */
+
+  /* .section-3 marquee {
     display: none;
-  }
-
-  .section-3 marquee {
-    display: none;
-    /* position: absolute;
-        bottom: 2;
-        top: 20;
-        width: 100%;
-        height: 13.5rem;
-        margin-top: 2em;
-        transform: rotate(0deg) translateY(0) translateX(0); */
-  }
-
-  /* .section-3-2{
-        height: 100vh;
-      } */
-
-  .section-3-2-image img {
-    height: 50vh;
-    margin-left: 26%;
-  }
-  .section-3-2-text {
-    width: 80%;
-    height: 102px;
-    margin-left: 3em;
-    margin-top: 5em;
-  }
-  .section-3-2-text h1 {
-    font-size: 3.5em;
-    color: white;
-    font-family: "Oswald";
-  }
-  .section-3-2-text p {
-    font-size: 1.2em;
-    color: white;
-    font-family: "Open Sans";
-    margin-top: 2em;
-    font-weight: 500;
-    line-height: 2;
-    width: 100%;
-  }
+  } */
 
   /*! section 4  */
-  .section-4-img img {
+  /* .section-4-img img {
     width: 65%;
-  }
+  } */
 }
 
 /* Mobile view adjustments */
@@ -274,10 +581,7 @@ content-box
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
-  .content-box h1 {
-    font-size: 2.5em;
-    width: 100%;
-  }
+
   .content-box p {
     font-size: 1em;
     line-height: 1.5;
@@ -292,11 +596,6 @@ content-box
 
   .marquee-text {
     display: none;
-  }
-
-  .text-section {
-    max-width: 100%;
-    margin-bottom: 2rem;
   }
 
   .text-content h3 {
@@ -316,86 +615,12 @@ content-box
     height: 60%;
     margin: auto;
   }
+
   /*! section 3 */
-  .section-3 {
-    height: 100vh;
-  }
+
 
   .section-3 marquee {
     display: none;
-    /* position: absolute;
-        bottom: 2;
-        top: 20;
-        width: 100%;
-        height: 13.5rem;
-        margin-top: 2em;
-        transform: rotate(0deg) translateY(0) translateX(0); */
   }
 
-  .section-3-2-image img {
-    height: 30vh;
-    margin-left: 26%;
-  }
-  .section-3-2-text {
-    width: 100%;
-    height: 102px;
-    text-align: center;
-    /* margin-top: 12px; */
-  }
-  .section-3-2-text h1 {
-    font-size: 3em;
-    color: white;
-    font-family: "Oswald";
-  }
-  .section-3-2-text p {
-    font-size: 12px;
-    color: white;
-    font-family: "Open Sans";
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    line-height: 2;
-    width: 100%;
-  }
-
-  /*! section 4  */
-
-  .section-4-1 h1 {
-    font-size: 2.5em;
-    font-weight: 500;
-    color: white;
-    font-family: "Oswald";
-    padding-top: 2em;
-  }
-  .section-4-1 p {
-    font-size: 1em;
-    /* padding-top: 1.5em;
-        padding-bottom: 10px;
-        line-height: 2;
-        color: white; */
-    font-family: "Open Sans";
-  }
-  .section-4-img img {
-    display: none;
-  }
-  .section-4-1 a {
-    width: 15em;
-    margin-left: 1.3em;
-    background-color: #fcb541;
-    font-family: "Open Sans";
-    font-weight: 700;
-    color: #000;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 481px) {
-  .section-3-2 {
-    display: flex;
-    gap: 2rem;
-  }
-  .section-3-2-text p {
-    font-size: 14px;
-    margin-top: 0;
-  }
-  
 }

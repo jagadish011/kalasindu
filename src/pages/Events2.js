@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import "./styles/event.styles.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import EventsG1 from "../assets/images/eventsImage1.png";
 import eveImg1 from "../assets/images/2008.png";
 import eveImg2 from "../assets/images/2009.png";
@@ -22,9 +19,12 @@ import eveImg16 from "../assets/images/2023.png";
 import eveImg17 from "../assets/images/2024.png";
 import EventsG2 from "../assets/images/EventsImg2.png";
 import eveImg4 from "../assets/images/workshop.png";
-import Test2 from "./Test2";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Test2 from "./Test2";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./styles/event.styles.css";
 
 const Events2 = () => {
   useEffect(() => {
@@ -58,9 +58,7 @@ const Events2 = () => {
 
       <div className="section-2-1 box">
         <div className="content-box">
-          <h1 className="custom-events2">
-            Festivals of Kalasindhu
-          </h1>
+          <h1 className="">Festivals of Kalasindhu</h1>
           <p
             className="custom-events display-1"
             data-aos="fade-up"
@@ -78,10 +76,7 @@ const Events2 = () => {
         className="container-fluid section-navaratri"
         style={{ background: "#003D1B", overflow: "hidden" }}
       >
-        <div
-          className="d-flex flex-column flex-md-row justify-content-between align-items-center"
-          style={{ height: "100vh" }}
-        >
+        <div className="navarasa-navaratri">
           {/* Marquee section - Hidden on mobile */}
           <div className="d-none d-md-block">
             <div className="marquee-text">
@@ -138,12 +133,11 @@ const Events2 = () => {
         className="section-3"
         style={{
           background: "#003D1B",
-          height: "100vh",
           overflow: "hidden",
           paddingTop: "50px",
         }}
       >
-        <div className="section-3-2 d-flex-row d-lg-flex justify-content-between">
+        <div className="section-3-2">
           {/* Hide on mobile */}
           <div className="section-3-2-image">
             <img src={EventsG2} />
@@ -152,6 +146,7 @@ const Events2 = () => {
             <h1>Nirantara Narmada</h1>
 
             <p
+              className="navarasa-navaratri-text"
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="2000"
@@ -204,7 +199,7 @@ const Events2 = () => {
 
         {/* Marquee for laptop view */}
         <marquee
-          className="d-none d-md-none d-lg-flex"
+          className="m-images d-lg-flex"
           loop="infinite"
           style={{
             height: "13.5rem",
@@ -221,28 +216,14 @@ const Events2 = () => {
       </div>
 
       <section className="section-4">
-        <div
-          style={{
-            backgroundColor: "#330A0A",
-            height: "100vh",
-            display: "flex",
-            justifyItems: "center",
-            alignItems: "center",
-            overflow: "hidden",
-
-          }}
-        >
+        <div>
           <div className="container">
             <div className="row">
-              <div className="section-4-1 col-lg-6" >
-                <h1
-                  className="text-white fw-bolder mt-5"
-                  
-                >
+              <div className="section-4-1 col-lg-6 ">
+                <h1 className="text-white fw-bolder">
                   Workshops & other events
                 </h1>
                 <p
-                  
                   className="text-white mt-3"
                   data-aos="fade-up"
                   data-aos-easing="linear"
@@ -257,7 +238,7 @@ const Events2 = () => {
                 </p>
                 <a
                   href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded mt-5 py-3 px-3"
+                  className="btn btn-lg  rounded py-3 px-3"
                   // style={{
                   //   width: "20em",
                   //   background: "#FCB541",
