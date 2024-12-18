@@ -40,7 +40,7 @@
 }
 
 .hero-content-collaborate h1 {
-  font-size: 3.3rem;
+  font-size: 4rem;
   text-align: center;
   font-family: "Oswald";
   font-weight: 700;
@@ -48,11 +48,11 @@
 }
 
 .hero-content-collaborate p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 400;
-  padding: 20px 150px;
+  padding: 20px 100px;
 }
 
 /* Section 2 Styles */
@@ -66,14 +66,14 @@
 }
 
 .collaborate-s2 h1 {
-  font-size: 3.3rem;
+  font-size: 4rem;
   margin-top: 2em;
   padding-left: 1em;
 }
 
 .collaborate-s2-text p {
   width: 90%;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 20px 50px;
   margin-top: 7em;
 }
@@ -134,11 +134,11 @@
 }
 
 .collaborate-s3 h1 {
-  font-size: 3.3rem;
+  font-size: 4rem;
 }
 
 .collaborate-s3 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   width: 75%;
   margin-top: 2em;
   line-height: 1.5;
@@ -210,12 +210,12 @@
 }
 
 .collaborate-s4 h1 {
-  font-size: 3.3rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
 .collaborate-s4 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 

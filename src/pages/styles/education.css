@@ -27,8 +27,9 @@ body {
 
 .education-title {
   font-family: "Oswald", sans-serif;
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: bold;
+  margin-top: 1em;
   margin-bottom: 20px;
   color: #000;
   margin-bottom: 1em;
@@ -36,7 +37,7 @@ body {
 
 .education-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 3em;
   color: #333;
@@ -115,13 +116,13 @@ body {
   color: #ffffff;
   font-weight: 700;
   font-family: "Oswald", sans-serif;
-  font-size: 3.2rem;
-  margin-bottom: 1em;
+  font-size: 4rem;
+  margin-bottom: .8em;
 }
 
 .curriculum-list {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   list-style-type: decimal;
   padding-left: 20px;
@@ -178,14 +179,14 @@ body {
 .added-benefits-title {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 4rem;
   color: #080808;
   margin-bottom: 1em;
 }
 
 .added-benefits-list {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   list-style-type: decimal;
   padding-left: 20px;
@@ -253,13 +254,14 @@ body {
 /* Title Styling */
 .admissions-title {
   font-family: "Oswald", sans-serif;
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: 700;
   color: #e8e5e7;
   margin-bottom: 1em;
 }
 
 .admissions-line {
+  font-size: 1.3rem;
   margin-bottom: 3em;
   width: 75%;
 }
