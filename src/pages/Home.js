@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "../assets/styles/core.css";
 import heroImg from "../assets/images/rsc.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -19,6 +18,7 @@ import AOS from "aos";
 import CountdownCard from "../components/CountdownCard";
 import { Link } from "react-router-dom";
 import EventsCard from "./EventsCards";
+import "../assets/styles/core.css";
 
 function Home() {
   useEffect(() => {
