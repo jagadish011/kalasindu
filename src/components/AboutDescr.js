@@ -97,25 +97,25 @@ const AboutDescr = () => {
                 <div className="">
                   <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={150} duration={5.5} /> +
-                    <p className="fs-3">Students</p>
+                    <p className="fs-2">Students</p>
                   </div>
                 </div>
                 <div className="">
                   <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={300} duration={5.5} /> +
-                    <p className="fs-3">Performances</p>
+                    <p className="fs-2">Performances</p>
                   </div>
                 </div>
                 <div className="">
                   <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={30} duration={5.5} /> +
-                    <p className="fs-3">Arangetrums</p>
+                    <p className="fs-2">Arangetrums</p>
                   </div>
                 </div>
                 <div className="">
                   <div className="stat-item text-center fs-2 text-white">
                     <CountUp end={20} duration={3.5} /> +
-                    <p className="fs-3">Productions</p>
+                    <p className="fs-2">Productions</p>
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const AboutDescr = () => {
            style={{color:"white"}}
             data-aos="fade-up"
             data-aos-duration="1700"
-            className="mt-4 w-80 mx-2"
+            className=""
           >
             Poornima Gururaja, a highly acclaimed dance artist, has received
             several prestigious awards and recognitions throughout her

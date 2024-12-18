@@ -539,12 +539,12 @@ iframe {
 
 .responsive-text{
   width: 33rem;
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
 }
 .icons-text{
   font-weight: bolder;
-  font-size: .4em;
+  font-size: 1.5rem;
 }
 
 .container-fluid-card{
@@ -573,7 +573,7 @@ iframe {
 }
 .community-title {
   color: black;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 .container-fluid-card p{
   font-size: 1.3em;
