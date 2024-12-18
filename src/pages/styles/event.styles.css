@@ -14,7 +14,7 @@
   font-family: "Oswald";
   font-weight: 700;
   margin-bottom: 1em;
-  font-size: 4em;
+  font-size: 5em;
   color: white;
 }
 
@@ -59,7 +59,7 @@
 .text-section {
   max-width: 512px;
   font-family: "Open Sans";
-  margin-bottom: 4rem;
+  margin-bottom: -10rem;
 }
 
 .text-content {
@@ -82,8 +82,8 @@
 .image-title {
   color: #255a31;
   font-family: "Oswald";
-  font-size: 4em;
-  margin: 0.5em;
+  font-size: 5em;
+  margin: 0.1em;
 }
 
 .event-image {
@@ -117,13 +117,13 @@
 }
 
 .section-3-2-text h1 {
-  font-size: 3.5em;
+  font-size: 5em;
   color: #255a31;
   font-family: "Oswald";
 }
 
 .section-3-2-text p {
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
   font-family: "Open Sans";
   margin-top: 3em;
@@ -141,20 +141,26 @@
   display: flex;
 }
 
+.section-4-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .section-4-img img {
-  width: 80%;
+  width: 100%;
 }
 
 .section-4-1 {
-  margin-top: 50px;
+  padding: 2em;
+  width: 55%;
 }
 
 .section-4-1 h1 {
-  font-size: 51px;
+  font-size: 64px;
   font-weight: 600;
   color: white;
   font-family: "Oswald";
-  margin-top: 1em;
 }
 
 .section-4-1 p {
@@ -249,36 +255,46 @@
   .section-4 {
     height: 75vh;
     overflow: hidden;
-    justify-content: center;
-    align-items: flex-end;
-    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .section-4-1 {
+    width: 100%;
+    text-align: left;
+    padding: 0;
   }
 
   .section-4-1 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 600;
     color: white;
     font-family: "Oswald";
-    margin-top: 0.5em;
+    margin-top: 2em;
   }
 
   .section-4-1 p {
-    font-size: .7em;
-    padding-top: 1.5em;
-    padding-bottom: 0px;
-    line-height: 2;
+    font-size: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    line-height: 1.5;
     color: white;
     font-family: "Open Sans";
   }
-
+  
   .section-4-1 a {
-    width: auto;
-    margin-top: 1.5em;
-    font-size: 1em;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    font-size: 0.9em;
     background-color: #fcb541;
     font-family: "Open Sans";
     font-weight: 600;
     color: #000;
+    text-align: center;
+    border-radius: 5px;
   }
 
   .section-4-1 a:hover {
@@ -453,10 +469,12 @@
   .section-3 {
     height: 77vh;
   }
-  .section-3-2{
+
+  .section-3-2 {
     width: 112%;
     margin-bottom: 2em;
   }
+
   .section-3-2-text h1 {
     font-size: 5em;
     padding-left: 40px;
@@ -484,12 +502,14 @@
     align-items: center;
     display: flex;
   }
+
   .section-4-1 h1 {
     font-size: 4em;
     font-weight: 600;
     color: white;
     font-family: "Oswald";
   }
+
   .section-4-1 p {
     font-size: 1.2em;
     padding-top: 1em;
@@ -497,6 +517,7 @@
     color: white;
     font-family: "Open Sans";
   }
+
   .section-4-1 a {
     width: auto;
     margin-top: .8em;

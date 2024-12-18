@@ -217,47 +217,43 @@ const Events2 = () => {
 
       <section className="section-4">
         <div>
-          <div className="container">
-            <div className="row">
-              <div className="section-4-1 col-lg-6 ">
-                <h1 className="text-white fw-bolder">
-                  Workshops & other events
-                </h1>
-                <p
-                  className="text-white mt-3"
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500"
-                >
-                  At Kalasindhu, we encourage students to learn from a diverse
-                  array of artists, thereby enhancing their knowledge of various
-                  aspects of dance and other performing arts fields. From
-                  traditional nattuvanars to Rajasthani folk dance masters,
-                  Kalasindhu delights in hosting numerous artists who are
-                  experts in their respective fields.
-                </p>
-                <a
-                  href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
-                  className="btn btn-lg  rounded py-3 px-3"
-                  // style={{
-                  //   width: "20em",
-                  //   background: "#FCB541",
-                  //   fontFamily: "Open Sans",
-                  //   fontWeight: "700",
-                  //   color: "black",
-                  // }}
-                >
-                  Join Whatsapp group for updates
-                </a>
-              </div>
-              <div className="section-4-img col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
-                <img
-                  src={eveImg4}
-                  className="img-fluid"
-                  alt="Hero Image"
-                  // style={{ width: "80%" }}
-                />
-              </div>
+          <div className="section-4-content">
+            <div className="section-4-1  ">
+              <h1 className="text-white fw-bolder">Workshops & other events</h1>
+              <p
+                className="text-white mt-3"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                At Kalasindhu, we encourage students to learn from a diverse
+                array of artists, thereby enhancing their knowledge of various
+                aspects of dance and other performing arts fields. From
+                traditional nattuvanars to Rajasthani folk dance masters,
+                Kalasindhu delights in hosting numerous artists who are experts
+                in their respective fields.
+              </p>
+              <a
+                href=" https://chat.whatsapp.com/BteZTyeTlnl1UrKNgc1i6g"
+                className="btn btn-lg  rounded py-3 px-3"
+                // style={{
+                //   width: "20em",
+                //   background: "#FCB541",
+                //   fontFamily: "Open Sans",
+                //   fontWeight: "700",
+                //   color: "black",
+                // }}
+              >
+                Join Whatsapp group for updates
+              </a>
+            </div>
+            <div className="section-4-img">
+              <img
+                src={eveImg4}
+                className="img-fluid"
+                alt="Hero Image"
+                // style={{ width: "80%" }}
+              />
             </div>
           </div>
         </div>
