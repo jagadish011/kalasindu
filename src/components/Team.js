@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/core";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "./Team.css";
 import t1 from "../assets/images/t1.png";
 import t2 from "../assets/images/t2.png";
 import t3 from "../assets/images/t3.png";
@@ -10,6 +9,7 @@ import t4 from "../assets/images/t4.png";
 import t5 from "../assets/images/t5.png";
 import t6 from "../assets/images/t6.png";
 import t7 from "../assets/images/t7.png";
+import "./Team.css";
 
 const teamMembers = [
   {
@@ -159,15 +159,9 @@ const Team = () => {
                 alt={`Slide ${index + 1}`}
                 style={{ borderRadius: "16px", width: "100%", height: "auto" }}
               />
-              <figcaption
-                className="figcaption ml-3" 
-              >
-                <p className="fw-bolder text-bold fs-2">
-                {member.name}
-                </p>
-                <p className="mb-0 fs-5">
-                  {member.role}
-                </p>
+              <figcaption className="figcaption ml-3">
+                <p className="fw-bolder text-bold fs-2">{member.name}</p>
+                <p className="mb-0 fs-5">{member.role}</p>
               </figcaption>
               <div
                 className="small-desc text-dark mt-0 mb-0 px-4 py-3"

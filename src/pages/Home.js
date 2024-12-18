@@ -239,9 +239,10 @@ function Home() {
                         style={{
                           background: "#FCB541",
                           fontFamily: "Open Sans",
-                          fontWeight: "bold",
+                          fontWeight: "semibold",
                           color: "black",
                           marginBottom: "2em",
+                          padding: "1em 1em",
                         }}
                       >
                         Know more about us

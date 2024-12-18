@@ -25,7 +25,7 @@ const Testimonial = () => {
         <div className="col-lg-5 col-sm-12 card-section">
           <div className=" test-card-div">
             <div className="test-card-left mb-2">
-              <div className="p-2">
+              <div className="p-5">
                 <p
                   className="fw-bolder fs-4"
                   style={{ color: "rgba(148, 176, 116, 1)" }}
@@ -63,7 +63,7 @@ const Testimonial = () => {
             ref={splideRef}
           >
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5" style={{color:'white'}}>
+              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -131,7 +131,7 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5">
+              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -149,7 +149,7 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5">
+              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -167,7 +167,7 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5">
+              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
