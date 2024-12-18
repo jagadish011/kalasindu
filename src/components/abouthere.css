@@ -94,9 +94,6 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 10px;
   }
-  p {
-    font-size: 1.4rem; /* Default for body text */
-  }
 }
 
 .stats-grid {
