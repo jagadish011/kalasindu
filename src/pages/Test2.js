@@ -331,7 +331,7 @@ const Test2 = () => {
                       width: "auto",
                       background: "#FCB541",
                       fontFamily: "Open Sans",
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "black",
                     }}
                   >
