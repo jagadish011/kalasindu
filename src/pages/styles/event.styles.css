@@ -186,6 +186,10 @@
   color: #000;
 }
 
+.section-4-img-mobile{
+  display: none;
+}
+
 
 @media screen and (min-width:320px) and (max-width: 630px) {
   .content-box h1 {
@@ -253,7 +257,7 @@
   }
 
   .section-4 {
-    height: 75vh;
+    height: auto;
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-start;
@@ -304,6 +308,13 @@
 
   .section-4-img img {
     display: none;
+  }
+
+  .section-4-img-mobile{
+    display: block;
+    width: 80%;
+    margin-top: 1em;
+    margin-left: 1.5em;
   }
 }
 
@@ -373,17 +384,18 @@
   }
 
   .section-4 {
-    background-color: #330A0A;
-    height: 110vh;
+    height: auto;
     overflow: hidden;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    display: flex;
+    padding: 1em;
   }
 
   .section-4-1 {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    padding: 25px;
   }
 
   .section-4-1 h1 {
@@ -391,34 +403,47 @@
     font-weight: 600;
     color: white;
     font-family: "Oswald";
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
   }
 
   .section-4-1 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-top: 1em;
-    line-height: 2;
+    padding-bottom: 0.5em;
+    line-height: 1.5;
     color: white;
     font-family: "Open Sans";
   }
-
-  .section-4-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+  
   .section-4-1 a {
-    width: auto;
-    margin-top: .8em;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    font-size: 0.9em;
     background-color: #fcb541;
     font-family: "Open Sans";
     font-weight: 600;
     color: #000;
+    text-align: center;
+    border-radius: 5px;
   }
 
   .section-4-1 a:hover {
     background-color: #f39d13;
     color: #000;
+  }
+
+  .section-4-img img {
+    display: none;
+  }
+
+  .section-4-img-mobile{
+    display: block;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }

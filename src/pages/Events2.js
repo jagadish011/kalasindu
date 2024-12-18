@@ -220,6 +220,13 @@ const Events2 = () => {
           <div className="section-4-content">
             <div className="section-4-1  ">
               <h1 className="text-white fw-bolder">Workshops & other events</h1>
+              <div className="section-4-img-mobile">
+              <img
+                src={eveImg4}
+                className="img-fluid"
+                alt="Hero Image"
+              />
+            </div>
               <p
                 className="text-white mt-3"
                 data-aos="fade-up"
@@ -252,7 +259,6 @@ const Events2 = () => {
                 src={eveImg4}
                 className="img-fluid"
                 alt="Hero Image"
-                // style={{ width: "80%" }}
               />
             </div>
           </div>
