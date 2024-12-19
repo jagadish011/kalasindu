@@ -96,6 +96,9 @@ function Collaborate() {
                 >
                   Rent the space
                 </h1>
+                <div className="collaborate-s3-img-mobile">
+                  <img src={colImg2} alt="Hero Image" className="img-fluid" />
+                </div>
                 <p
                   className="text-white"
                   style={{
@@ -195,6 +198,7 @@ function Collaborate() {
               >
                 Showcase your art
               </h1>
+              
               <p
                 className="text-dark"
                 // data-aos="fade-up"
