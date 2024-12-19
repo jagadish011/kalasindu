@@ -29,7 +29,7 @@ const EventsCard = ({ eventLink, imgSrc, title, artist, date, time, location, pr
                 <IoLocationOutline className="fs-5 mt-2" />
                 <p className="ms-2 mb-2 mt-1">{location}</p>
               </div>
-              <div className="d-flex justify-content-between align-item-center mt-3">
+              <div className="d-flex justify-content-between gap-5 mt-3">
                 <a
                   href={eventLink}
                   className="fw-bold fs-5 "
