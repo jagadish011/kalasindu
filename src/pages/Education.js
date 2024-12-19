@@ -18,27 +18,28 @@ function Education() {
     <>
       <Navbar />
       <div style={{ backgroundColor: "#E8E5E7", overflow: "hidden" }}>
-
         <div className="education-section">
           <div className="education">
             <div className="education-content">
               <h1 className="education-title">Education at Kalasindhu</h1>
+              <div className="education-image-mobile">
+                <img src={eduImg1} alt="Education Hero" className="img-fluid" />
+              </div>
               <div className="education-d">
-              <p className="education-description">
-                At Kalasindhu, a comprehensive and integrated approach to
-                education is offered. Music and Sanskrit are taught along with
-                dance, so students understand the lyrics and meaning of the
-                items they perform.
-                <br />
-                <br />
-                The dedicated space, designed for all ages, sex, and skill,
-                fosters creativity in a serene ambiance.
-              </p>
+                <p className="education-description">
+                  At Kalasindhu, a comprehensive and integrated approach to
+                  education is offered. Music and Sanskrit are taught along with
+                  dance, so students understand the lyrics and meaning of the
+                  items they perform.
+                  <br />
+                  <br />
+                  The dedicated space, designed for all ages, sex, and skill,
+                  fosters creativity in a serene ambiance.
+                </p>
               </div>
               <a href="https://wa.me/9731098227" className="enquire-button">
                 Enquire
               </a>
-              
             </div>
             <div className="education-image">
               <img src={eduImg1} alt="Education Hero" className="img-fluid" />
@@ -54,6 +55,13 @@ function Education() {
 
             <div className="curriculum-content">
               <h1 className="curriculum-title">Curriculum</h1>
+              <div className="curriculum-image-mobile">
+                <img
+                  src={eduImg2}
+                  alt="Curriculum Image"
+                  className="img-fluid"
+                />
+              </div>
               <ol
                 className="curriculum-list"
                 data-aos="fade-up"
@@ -90,6 +98,13 @@ function Education() {
           <div className="added-benefits-container">
             <div className="added-benefits-content">
               <h1 className="added-benefits-title">Added Benefits</h1>
+              <div className="added-benefits-image-mobile">
+                <img
+                  src={eduImg3}
+                  alt="Added Benefits Image"
+                  className="img-fluid"
+                />
+              </div>
               <ol
                 className="added-benefits-list"
                 data-aos="fade-up"

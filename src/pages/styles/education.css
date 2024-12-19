@@ -63,6 +63,10 @@ body {
   background-color: #333;
 }
 
+.education-image-mobile{
+  display: none;
+}
+
 .education-image {
   flex: 1;
   max-width: 50%;
@@ -91,7 +95,9 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
-
+.curriculum-image-mobile{
+  display: none;
+}
 /* Image Section */
 .curriculum-image {
   flex: 1;
@@ -158,7 +164,7 @@ body {
 
 .added-benefits-section {
   background-color: #e8e5e7;
-  color: #333;
+  color: black;
   padding: 40px 40px;
 }
 
@@ -176,12 +182,11 @@ body {
   max-width: 55%;
 }
 
-.added-benefits-title {
-  font-family: "Oswald", sans-serif;
+.added-benefits-content h1 {
+  font-size: 4em;
   font-weight: 700;
-  font-size: 4rem;
-  color: #080808;
-  margin-bottom: 1em;
+  margin-bottom: .8em;
+  font-family: "Oswald", sans-serif;
 }
 
 .added-benefits-list {
@@ -216,6 +221,9 @@ body {
 
 .added-benefits-button:hover {
   background-color: #555;
+}
+.added-benefits-image-mobile{
+  display: none;
 }
 
 /* Image Section */
@@ -325,10 +333,14 @@ body {
     text-align: center;
   }
 
-  .education-image {
-    order: 1;
+  .education-image-mobile{
+    display: block;
     max-width: 100%;
     text-align: center;
+  }
+
+  .education-image {
+    display: none;
   }
 
   .img-fluid {
@@ -367,11 +379,13 @@ body {
     align-items: center;
     gap: 2rem;
   }
-
-  .curriculum-image {
-    order: 1;
-    text-align: center;
+  .curriculum-image-mobile{
+    display: block;
     max-width: 100%;
+    text-align: center;
+  }
+  .curriculum-image {
+    display: none;
   }
 
   .curriculum-image img {
@@ -387,13 +401,14 @@ body {
   }
 
   .curriculum-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1.5rem;
-    color: white;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: .8em;
     text-align: center;
   }
-
+  
   .curriculum-list {
     width: 100%;
     font-size: 1rem;
@@ -431,18 +446,19 @@ body {
     max-width: 100%;
   }
 
-  .added-benefits-title {
+  .added-benefits-content h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: .8em;
+    font-family: "Oswald", sans-serif;
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #000;
   }
 
   .added-benefits-list {
     font-size: 1rem;
     line-height: 1.5;
     padding: 0;
-    margin: 1rem 0;
+    margin: 2rem 0;
     list-style: decimal inside;
   }
 
@@ -466,11 +482,13 @@ body {
   .added-benefits-button:hover {
     background-color: #333;
   }
-
-  .added-benefits-image {
-    order: 1;
-    text-align: center;
+  .added-benefits-image-mobile{
+    display: block;
     max-width: 100%;
+    text-align: center;
+  }
+  .added-benefits-image {
+    display: none;
   }
 
   .added-benefits-image img {
@@ -538,15 +556,19 @@ body {
 
   .education-title {
     margin-top: 4rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem;
     text-align: left;
   }
 
-  .education-image {
-    order: 1;
+  .education-image-mobile{
+    display: block;
     max-width: 100%;
     text-align: center;
+  }
+
+  .education-image {
+    display: none;
   }
 
   .img-fluid {
@@ -584,10 +606,13 @@ body {
     gap: 3rem;
   }
 
-  .curriculum-image {
-    order: 1;
-    text-align: center;
+  .curriculum-image-mobile{
+    display: block;
     max-width: 100%;
+    text-align: center;
+  }
+  .curriculum-image {
+    display: none;
   }
 
   .curriculum-image img {
@@ -603,8 +628,8 @@ body {
   }
 
   .curriculum-title {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
     color: white;
     text-align: left;
@@ -682,10 +707,13 @@ body {
     background-color: #333;
   }
 
-  .added-benefits-image {
-    order: 1;
-    text-align: center;
+  .added-benefits-image-mobile{
+    display: block;
     max-width: 100%;
+    text-align: center;
+  }
+  .added-benefits-image {
+    display: none;
   }
 
   .added-benefits-image img {
