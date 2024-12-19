@@ -241,6 +241,10 @@
   transition: background-color 0.3s ease;
 }
 
+.image-container-mobile{
+  display: none;
+}
+
 .image-container {
   width: 50%;
 }
@@ -396,9 +400,14 @@
     height: auto;
   }
 
-  .image-container {
+  .image-container-mobile{
+    display: block;
     width: 100%;
-    height: 40vh;
+    padding: 10px 0px;
+  }
+
+  .image-container {
+    display: none;
   }
 
   .collaborate-s4 {

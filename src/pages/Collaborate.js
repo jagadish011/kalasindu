@@ -198,7 +198,14 @@ function Collaborate() {
               >
                 Showcase your art
               </h1>
-              
+              <div className="image-container-mobile">
+                <img
+                  src={art}
+                  alt="Art"
+                  className="image"
+                  style={{ height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <p
                 className="text-dark"
                 // data-aos="fade-up"
