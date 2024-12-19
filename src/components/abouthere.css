@@ -31,7 +31,7 @@
   }
 
   .customized-height {
-    height: 130vh;
+    height: auto;
   }
   .customized-height h1{
     font-size: 2.5rem;
@@ -39,7 +39,8 @@
   }
 
   .about-container p{
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
+    font-size: 1rem;
   }
   .students{
     display:block;
@@ -56,6 +57,13 @@
   .stats-section {
     padding: 13px;
   }
+
+  .awards p {
+    font-size: 1rem;
+    margin-top: 1.5em;
+    padding: 0 0; 
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 631px) and (max-width: 990px) {
@@ -69,7 +77,11 @@
   }
 
   .customized-height {
-    height: 82vh;
+    height: auto;
+  }
+  .about-container p{
+    padding: 2rem 1rem;
+    font-size: 18px;
   }
   .students{
     display: flex;
@@ -79,6 +91,11 @@
     margin-bottom: 2em;
     margin-top: 2em;
    }
+   .awards p {
+    margin-top: 1.5em;
+    padding: 1em 1em; 
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
@@ -86,12 +103,19 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 10px;
   }
-  p {
-    font-size: 1.4rem; 
+  .about-container p{
+    padding: 2rem 1rem;
+    font-size: 20px;
   }
 
   .customized-height {
-    height: 70vh;
+    height: auto;
+  }
+
+  .awards p {
+    margin-top: 1.5em;
+    padding: 1em 1em; 
+    width: 100%;
   }
   
 }
