@@ -33,11 +33,11 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.hero-content {
+/* .hero-content {
   display: flex;
   flex-direction: column;
   margin-top: 5em;
-}
+} */
 
 .hero-content-collaborate h1 {
   font-size: 4rem;

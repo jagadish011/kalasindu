@@ -66,7 +66,8 @@
 }
 
 .navbar-nav .nav-link.active {
-  color: #fcb541 !important; /* Change to the color you want for the active link */
+  color: #fcb541 !important;
+  /* Change to the color you want for the active link */
 }
 
 .navbar-toggler {
@@ -136,13 +137,15 @@
 }
 
 .navbar-toggler .navbar-toggler-icon::after {
-    top: 8px; /* Position for the bottom line */
+  top: 8px;
+  /* Position for the bottom line */
 }
 
 /* Add a middle line */
 .navbar-toggler .navbar-toggler-icon::after {
   top: 8px;
 }
+
 /* end navbar */
 
 .circle-date {
@@ -157,7 +160,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: none; /* Optional: Add a border for better visibility */
+  border: none;
+  /* Optional: Add a border for better visibility */
 }
 
 .circle-date-text {
@@ -173,9 +177,11 @@
   --bs-accordion-bg: mintcream;
   --bs-accordion-color: #000000;
 }
+
 .accordion-button:focus {
   display: none;
 }
+
 .accordion-item {
   background-color: rgba(255, 255, 255, 0) !important;
   border: none;
@@ -199,6 +205,7 @@
   color: #fff;
   background-color: transparent;
 }
+
 .accordion-header button {
   color: #fff;
   background-color: transparent;
@@ -219,6 +226,7 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
   transition: all 0.5s;
 }
+
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
 }
@@ -384,7 +392,7 @@ iframe {
   justify-content: space-around;
 }
 
-.homeIcon{
+.homeIcon {
   font-size: 2.5rem;
 }
 
@@ -395,7 +403,7 @@ iframe {
 }
 
 
-.hero-content p{
+.hero-content p {
   font-size: 1.5em;
   /* margin-left: 2px; */
   /* margin-right: 1em; */
@@ -415,6 +423,7 @@ iframe {
   justify-content: start;
   gap: 20px;
 }
+
 /*! hero end */
 
 /* Support page */
@@ -449,31 +458,33 @@ iframe {
 /* Card container styles - using flexbox */
 .whats-new-cards {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 2rem; 
-  max-width: 90rem; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 /* Card styles */
 .card {
-  width: 30rem; 
-  max-width: 100%; 
+  width: 30rem;
+  max-width: 100%;
   font-family: "Open Sans";
 }
 
 /* ! cards end */
 
 /* ! why kalasindu */
-.drop-down{
+.drop-down {
   padding: 3em;
 }
-.container-fluid{
+
+.container-fluid {
   padding-left: 2px;
   padding-right: 2px;
 }
+
 .why-kalasindhu {
   background-size: cover;
   background-attachment: fixed;
@@ -496,22 +507,27 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+
 .why-k {
-  font-size: 4rem ;
+  font-size: 4rem;
 }
+
 .why-btn {
-  width:13em ;
+  width: 13em;
 }
+
 /*! video  */
-.video h2{
- font-size: 4rem;
- margin-top: 1em;
+.video h2 {
+  font-size: 4rem;
+  margin-top: 1em;
 }
+
 /* ! contact */
-.map{
+.map {
   display: flex;
   justify-content: space-between;
 }
+
 .contact-us {
   color: #c59e70;
   font-family: "Oswald";
@@ -519,11 +535,12 @@ iframe {
   margin-left: 1em;
   margin-bottom: 1em;
 }
+
 .contact-us-details ul {
   width: 12em;
 }
 
-.contact-desc{
+.contact-desc {
   font-size: 0.4em !important;
 }
 
@@ -537,17 +554,18 @@ iframe {
   height: 17rem;
 }
 
-.responsive-text{
+.responsive-text {
   width: 33rem;
   font-size: 1.1em;
   color: white;
 }
-.icons-text{
+
+.icons-text {
   font-weight: bolder;
   font-size: 1.5rem;
 }
 
-.container-fluid-card{
+.container-fluid-card {
   max-width: 1301px;
   margin: 0 auto;
   background-color: #fcb541;
@@ -557,11 +575,13 @@ iframe {
   justify-content: space-around;
   align-items: center;
 }
-.container-fluid-card p{
+
+.container-fluid-card p {
   font-size: .8em;
   color: black;
 }
-.container-fluid-card a{
+
+.container-fluid-card a {
   font-size: 1.2em;
   padding: 15px 30px;
   font-weight: 500;
@@ -571,19 +591,23 @@ iframe {
   text-decoration: none;
   width: 100%;
 }
+
 .community-title {
   color: black;
   font-size: 2.3em;
 }
-.container-fluid-card p{
+
+.container-fluid-card p {
   font-size: 1.3em;
 }
+
 .join-button {
   font-size: 0.9em;
   padding: 10px 20px;
-  margin-top: 1rem; 
+  margin-top: 1rem;
 }
-.whatsapp-button{
+
+.whatsapp-button {
   width: 22%;
 }
 
@@ -607,12 +631,12 @@ iframe {
   .card {
     margin-bottom: 2rem;
   }
- 
+
   .why-us-main {
     flex-direction: column;
   }
 
-  
+
 }
 
 @media screen and (min-width:320px) and (max-width: 630px) {
@@ -627,34 +651,45 @@ iframe {
   .hero-overlay {
     padding: 1px;
   }
+
   .hero-links {
     margin-bottom: 80px;
   }
+
   .why-btn {
-    font-size: 1em ;
+    font-size: 1em;
   }
 
   .contact-us {
     margin-left: 15px;
   }
 
-  .hero-overlay .icons{
+  .hero-overlay .icons {
     align-items: end;
     width: 100%;
     margin-left: 35px;
   }
-  .homeIcon{
+
+  .homeIcon {
     font-size: 30px
   }
+
+  .hero-content {
+    /* border: 2px solid white; */
+    margin-top: 10em;
+  }
+
   .hero-content span {
     font-size: .8rem;
     color: #E8E5E7;
-    margin-top: 1em;
+    margin-top: .1em;
   }
-  .hero-content p{
+
+  .hero-content p {
     font-size: 1em;
     color: #E8E5E7;
   }
+
   /*! card section  */
   .section {
     overflow: hidden;
@@ -666,72 +701,80 @@ iframe {
   }
 
   .whats-new-cards {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
 
   .card {
-    width: 100%; 
-    max-width: 100%; 
+    width: 100%;
+    max-width: 100%;
   }
 
   /*! why kalasindu */
   .why-k {
-    font-size: 1.2em ;
+    font-size: 1.2em;
     padding-bottom: 1em;
-    width: 100%; 
+    width: 100%;
   }
 
 
   /*! video  */
-  .video h2{
+  .video h2 {
     font-size: 1.8em;
-   }
+  }
 
-   /*! contact us */
-   .map{
+  /*! contact us */
+  .map {
     display: block;
-   }
-   .contact-us {
+  }
+
+  .contact-us {
     color: #c59e70;
     font-family: "Oswald";
     font-size: 1.6em;
     margin-bottom: 1em;
   }
+
   .contact-us-details ul {
     width: 9.5em;
     /* font-size: 0.8em; */
   }
-   .responsive-iframe-container iframe {
+
+  .responsive-iframe-container iframe {
     width: 100%;
-    height: 15rem; 
+    height: 15rem;
   }
+
   .responsive-text {
     width: 100%;
     font-size: 0.8em;
     color: white;
   }
-  .c-icons{
+
+  .c-icons {
     margin-right: 14px;
   }
-  .icons-text{
+
+  .icons-text {
     font-size: .4em;
   }
-/*!last card  */
- 
+
+  /*!last card  */
+
   /* .container-fluid-card {
     padding: 10px;
   } */
-  .container-fluid-card{
+  .container-fluid-card {
     margin-top: 2rem;
     display: block;
   }
+
   .community-title {
     font-size: 1.2em;
     padding-bottom: 1rem;
   }
 
-  .container-fluid-card p{
+  .container-fluid-card p {
     font-size: 0.9em;
     margin-top: 1rem;
   }
@@ -739,20 +782,22 @@ iframe {
   .join-button {
     font-size: 0.6em;
     padding: 10px 20px;
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
-  
-  .container-fluid-card a{
+
+  .container-fluid-card a {
     font-size: 0.9em;
     width: 100%;
   }
-  .whatsapp-button{
+
+  .whatsapp-button {
     width: 100%;
   }
 }
 
 /* Responsive styling for tablets (min-width: 576px and max-width: 991px) */
 @media (min-width: 631px) and (max-width: 990px) {
+
   /*! hero  */
   .hero-wrapper {
     height: 82vh;
@@ -760,13 +805,14 @@ iframe {
 
   .hero-wrapper img {
     height: 80vh;
-  } 
-  .homeIcon{
+  }
+
+  .homeIcon {
     font-size: 38px;
     margin-bottom: 10px;
   }
-  
-  .hero-content p{
+
+  .hero-content p {
     font-size: 1.7rem;
     width: 100%;
   }
@@ -775,25 +821,29 @@ iframe {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
+
   .hero-overlay {
     padding: 20px;
     display: flex;
     flex-direction: row !important;
     gap: 20px;
   }
+
   .hero-links {
     flex-direction: column;
   }
+
   /*! card section  */
   .whats-new-cards {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
+
   .card {
-    width: 100%; 
-    max-width: 100%; 
+    width: 100%;
+    max-width: 100%;
   }
- 
+
   .display-6 {
     padding: 2rem 1rem;
   }
@@ -802,49 +852,60 @@ iframe {
     font-size: 2.5rem;
     margin-bottom: 2.5em;
   }
+
   .card-container {
     margin-left: 2rem;
   }
-  .map{
+
+  .map {
     display: block;
-   }
+  }
+
   .contact-us {
     color: #c59e70;
     font-family: "Oswald";
     font-size: 2.7em;
   }
+
   .contact-us-details ul {
-    width:100%;
+    width: 100%;
     font-size: 2.7em;
     margin-left: 3rem;
   }
-   .responsive-iframe-container iframe {
+
+  .responsive-iframe-container iframe {
     margin-left: 3rem;
     width: 84%;
-    height: 15rem; 
+    height: 15rem;
   }
+
   .responsive-text {
     margin-left: 3rem;
     width: 84%;
     font-size: 1em;
     color: white;
   }
-  .c-icons{
+
+  .c-icons {
     margin-right: 14px;
   }
-  .icons-text{
+
+  .icons-text {
     font-size: .4em;
   }
-   /*! why kalasindu */
+
+  /*! why kalasindu */
   .why-kalasindhu {
     height: 100%;
   }
+
   .why-us-main {
     flex-direction: column;
   }
+
   .why-k {
     white-space: nowrap;
-    font-size: 2.2em ;
+    font-size: 2.2em;
     padding-bottom: 1em;
   }
 
@@ -857,9 +918,9 @@ iframe {
   }
 
   .why-btn {
-    font-size: 1.5em ;
+    font-size: 1.5em;
   }
-  
+
   /* .container-fluid{
     padding: 10px;
     padding-left: 5px;
@@ -869,7 +930,7 @@ iframe {
   .accordion-body p {
     font-size: 1em;
   }
-  
+
 
   /* ! community */
   .container-fluid-card {
@@ -890,107 +951,122 @@ iframe {
   .join-button {
     font-size: 0.6em;
     padding: 10px 20px;
-    margin-top: .8rem; 
+    margin-top: .8rem;
   }
-  .container-fluid-card p{
+
+  .container-fluid-card p {
     font-size: 0.8em;
   }
-  .container-fluid-card a{
+
+  .container-fluid-card a {
     font-size: 1em;
   }
-  .whatsapp-button{
+
+  .whatsapp-button {
     width: 90%;
     margin-top: 1rem;
   }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+
   /*! hero  */
   .hero-overlay {
     flex-direction: row;
     padding: 0px 30px;
     gap: 30px;
   }
+
   .hero-links {
     flex-direction: column;
   }
+
   .hero-wrapper {
     height: 87vh;
   }
 
   .hero-wrapper img {
     height: 87vh;
-  } 
-  .homeIcon{
+  }
+
+  .homeIcon {
     font-size: 50px;
     margin-bottom: 15px;
   }
-  .hero-content p{
+
+  .hero-content p {
     font-size: 2.5rem;
     width: 100%;
   }
+
   .hero-content span {
     font-size: 1.9rem;
     margin-top: 1rem;
   }
 
   /*! card section */
-  .title{
+  .title {
     font-size: 4rem;
   }
+
   .whats-new-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem; 
-    max-width: 70rem; 
+    gap: 1.5rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0 1rem;
   }
 
   /* Card styles */
   .card {
-    width: 25rem; 
+    width: 25rem;
     max-width: 100%;
     font-family: "Open Sans";
   }
 
- /*! why kalasindu */
- .container-fluid{
-  padding-left: 9px;
-  padding-right: 2px;
-}
-.why-kalasindhu {
-  height: 100%;
-}
+  /*! why kalasindu */
+  .container-fluid {
+    padding-left: 9px;
+    padding-right: 2px;
+  }
 
-.why-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
+  .why-kalasindhu {
+    height: 100%;
+  }
 
-.why-us-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.why-k {
-  font-size: 2.3em;
-}
-.why-btn {
-  width:13em ;
-  font-size: 1em ;
-}
+  .why-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .why-us-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-k {
+    font-size: 2.3em;
+  }
+
+  .why-btn {
+    width: 13em;
+    font-size: 1em;
+  }
+
   .main-heading {
-    font-size: 3.8rem ;
+    font-size: 3.8rem;
   }
 
   .visit-us {
     font-size: 1.3em;
   }
+
   .accordion-button:focus {
     display: block;
   }
@@ -998,25 +1074,27 @@ iframe {
   /*! contact  */
   .map {
     display: flex;
-    flex-direction: row ;
-    justify-content: space-between; 
-    align-items: flex-start; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   /* Adjust the width of the contact details for a balanced look */
   .contact-us-details {
-    width: 40%; 
+    width: 40%;
   }
+
   /* Adjust icon and text font sizes for this screen size */
   .contact-us {
-    font-size: 3em; 
+    font-size: 3em;
     margin-left: 1em;
   }
 
   .contact-desc {
-    font-size: 0.6em !important; 
+    font-size: 0.6em !important;
   }
-  .c-icons{
+
+  .c-icons {
     font-size: 0.8em;
     margin-right: 0.5em;
   }
@@ -1028,12 +1106,14 @@ iframe {
 
   /* Map container adjustments */
   .responsive-iframe-container {
-    width: 50%; /* Occupy right side */
-    max-width: 30rem; /* Limit width for a balanced layout */
+    width: 50%;
+    /* Occupy right side */
+    max-width: 30rem;
+    /* Limit width for a balanced layout */
   }
 
   .responsive-iframe-container iframe {
-    width: 100%; 
+    width: 100%;
     height: 15rem;
   }
 
@@ -1042,7 +1122,7 @@ iframe {
     width: 100%;
     color: white;
   }
-  
+
   .container-fluid-card {
     padding: 20px;
     display: flex;
@@ -1062,19 +1142,22 @@ iframe {
   .join-button {
     font-size: 0.6em;
     padding: 10px 20px;
-    margin-top: .8rem; 
+    margin-top: .8rem;
   }
-  .container-fluid-card p{
+
+  .container-fluid-card p {
     font-size: 1.2em;
   }
-  .container-fluid-card a{
+
+  .container-fluid-card a {
     font-size: 1em;
   }
-  .whatsapp-button{
+
+  .whatsapp-button {
     width: 30%;
     /* margin-top: 1rem; */
   }
-  
+
 }
 
 @media (min-width: 1201px) {
@@ -1126,19 +1209,23 @@ iframe {
 .test-card {
   height: 518px;
   font-family: Open Sans;
-  background: #1a5032; /* Set your default height here */
+  background: #1a5032;
+  /* Set your default height here */
 }
 
 .test-card h1 {
-  font-size: 2rem; /* Set your default font size for h1 here */
+  font-size: 2rem;
+  /* Set your default font size for h1 here */
 }
 
 .test-card p {
-  font-size: 1rem; /* Set your default font size for p here */
+  font-size: 1rem;
+  /* Set your default font size for p here */
   /* Add word-wrap and overflow-wrap properties */
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
 .pointer-cursor {
   cursor: pointer !important;
 }
@@ -1173,6 +1260,7 @@ iframe {
   .splide__pagination__page.is-active {
     background-color: brown;
   }
+
   .choreographer-text {
     position: absolute;
     bottom: 0px !important;
@@ -1201,6 +1289,7 @@ iframe {
   .custom-text1 {
     font-size: 2rem !important;
   }
+
   .custom-text2 {
     font-size: 2.5rem !important;
   }
@@ -1208,9 +1297,11 @@ iframe {
   .custom-text3 {
     font-size: 1rem !important;
   }
+
   .custom-text {
     font-size: 1.5rem !important;
   }
+
   .custom-text4 {
     font-size: 3rem !important;
     padding-top: 38px;
@@ -1223,32 +1314,46 @@ iframe {
   .custom-text span {
     font-size: 1.5rem !important;
   }
+
   .circle-date {
-    width: 4em; /* Set a smaller width for mobile devices */
-    height: 4em; /* Set a smaller height for mobile devices */
+    width: 4em;
+    /* Set a smaller width for mobile devices */
+    height: 4em;
+    /* Set a smaller height for mobile devices */
   }
 
   .circle-date-text {
-    font-size: 0.8em; /* Set a smaller font size for mobile devices */
+    font-size: 0.8em;
+    /* Set a smaller font size for mobile devices */
   }
+
   .test-card {
-    height: auto; /* Set auto height for mobile devices */
+    height: auto;
+    /* Set auto height for mobile devices */
   }
 
   .test-card h1 {
-    font-size: 1rem; /* Set a smaller font size for h1 on mobile devices */
+    font-size: 1rem;
+    /* Set a smaller font size for h1 on mobile devices */
   }
 
   .test-card p {
-    font-size: 0.7rem; /* Set a smaller font size for p on mobile devices */
+    font-size: 0.7rem;
+    /* Set a smaller font size for p on mobile devices */
   }
+
   .d-flex.align-items-center a.fs-4 {
-    padding: 8px 15px !important; /* Adjusted padding for mobile devices */
+    padding: 8px 15px !important;
+    /* Adjusted padding for mobile devices */
   }
+
   .hero-overlay .btn.btn-lg {
-    width: 200px !important; /* Adjust the width as needed */
-    font-size: 12px; /* Adjust the font size as needed */
+    width: 200px !important;
+    /* Adjust the width as needed */
+    font-size: 12px;
+    /* Adjust the font size as needed */
   }
+
   .accordion-button:focus {
     display: block;
   }

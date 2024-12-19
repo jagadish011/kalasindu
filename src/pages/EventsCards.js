@@ -19,15 +19,15 @@ const EventsCard = ({ eventLink, imgSrc, title, artist, date, time, location, pr
             <div>
               <div className="d-flex justify-content-start">
                 <SlCalender className="mt-2" />
-                <p className="ms-2 mb-2">{date}</p>
+                <p className="ms-2 mb-2 mt-1">{date}</p>
               </div>
               <div className="d-flex justify-content-start">
                 <FaRegClock className="mt-2" />
-                <p className="ms-2 mb-2">{time}</p>
+                <p className="ms-2 mb-2 mt-1">{time}</p>
               </div>
               <div className="d-flex justify-content-start">
                 <IoLocationOutline className="fs-5 mt-2" />
-                <p className="ms-2 mb-2">{location}</p>
+                <p className="ms-2 mb-2 mt-1">{location}</p>
               </div>
               <div className="d-flex justify-content-between align-item-center mt-3">
                 <a
