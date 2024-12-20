@@ -1,27 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
 
-.customized-height h1{
+.customized-height h1 {
   font-size: 3rem;
   margin-top: 1.8em;
 }
 
-.about-container p{
+.about-container p {
   padding: 3rem 12rem;
   font-size: 18px;
 }
-.students{
- display: flex;
- justify-content: space-around;
- align-items: center;
- /* gap: 2em; */
- margin-bottom: 2em;
- margin-top: 2em;
+
+.students {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 2em; */
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .awards p {
   margin-top: 1.5em;
-  padding: 1em 10em; 
+  padding: 1em 10em;
   width: 100%;
 }
 
@@ -33,23 +34,26 @@
   .customized-height {
     height: auto;
   }
-  .customized-height h1{
+
+  .customized-height h1 {
     font-size: 2.5rem;
     margin-top: 1em;
   }
 
-  .about-container p{
+  .about-container p {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
-  .students{
-    display:block;
+
+  .students {
+    display: block;
     justify-content: space-between;
     align-items: center;
     /* gap: 2em; */
     margin-bottom: 2em;
     margin-top: 2em;
-   }
+  }
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -61,7 +65,7 @@
   .awards p {
     font-size: 1rem;
     margin-top: 1.5em;
-    padding: 0 0; 
+    padding: 0 0;
     width: 100%;
   }
 }
@@ -73,27 +77,30 @@
   }
 
   p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
 
   .customized-height {
     height: auto;
   }
-  .about-container p{
+
+  .about-container p {
     padding: 2rem 1rem;
     font-size: 18px;
   }
-  .students{
+
+  .students {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
     margin-bottom: 2em;
     margin-top: 2em;
-   }
-   .awards p {
+  }
+
+  .awards p {
     margin-top: 1.5em;
-    padding: 1em 1em; 
+    padding: 1em 1em;
     width: 100%;
   }
 }
@@ -103,7 +110,8 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 10px;
   }
-  .about-container p{
+
+  .about-container p {
     padding: 2rem 1rem;
     font-size: 20px;
   }
@@ -114,10 +122,10 @@
 
   .awards p {
     margin-top: 1.5em;
-    padding: 1em 1em; 
+    padding: 1em 1em;
     width: 100%;
   }
-  
+
 }
 
 @media screen and (min-width: 1201px) {
@@ -131,7 +139,8 @@
   display: grid;
   /* grid-template-columns: repeat(4, 1fr);  */
   place-items: center;
-  gap: 10px; /* Space between grid items */
+  gap: 10px;
+  /* Space between grid items */
   /* padding: 20px; */
 }
 
@@ -147,5 +156,3 @@
     height: 110vh;
   }
 } */
-
-
