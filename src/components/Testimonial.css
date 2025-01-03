@@ -33,7 +33,15 @@
 .testimonial-image {
   object-fit: contain;
 }
+/* mobile-screen-headding p{
+  display: none;
+} */
 
+@media screen and (min-width:631px) and (max-width: 990px) {
+  .test-card-left{
+    display: block;
+  }
+}
 @media (max-width: 768px) {
   .container-fluid1 {
     background: rgba(19, 51, 17, 1);
@@ -59,6 +67,9 @@
   }
   .card-section {
     padding: 4rem 4rem 0 4rem;
+  }
+  .test-card-left{
+    display: none;
   }
 }
 

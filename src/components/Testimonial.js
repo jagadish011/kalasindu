@@ -22,6 +22,10 @@ const Testimonial = () => {
       // }}
     >
       <div className="row">
+        {/* <div className="mobile-screen-headding">
+          <p>TESTIMONIALS</p>
+        </div> */}
+
         <div className="col-lg-5 col-sm-12 card-section">
           <div className=" test-card-div">
             <div className="test-card-left mb-2">
@@ -57,13 +61,18 @@ const Testimonial = () => {
               interval: 2000,
               breakpoints: {
                 1200: { perPage: 2 },
-                768: { perPage: 2 },
+                320: { perPage: 1 },
+                990: { perPage: 3 },
+                // 768: { perPage: 2 },
               },
             }}
             ref={splideRef}
           >
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
+              <div
+                className="text-white test-card p-3 m-5"
+                style={{ color: "white", height: "auto" }}
+              >
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -131,7 +140,10 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
+              <div
+                className="text-white test-card p-3 m-5"
+                style={{ color: "white", height: "auto" }}
+              >
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -149,7 +161,10 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
+              <div
+                className="text-white test-card p-3 m-5"
+                style={{ color: "white", height: "auto" }}
+              >
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>
@@ -167,7 +182,10 @@ const Testimonial = () => {
             </SplideSlide>
 
             <SplideSlide className="me-3">
-              <div className="text-white test-card p-3 m-5" style={{color:'white', height:'auto'}}>
+              <div
+                className="text-white test-card p-3 m-5"
+                style={{ color: "white", height: "auto" }}
+              >
                 <span className="text-white custom-font mb-0 mt-0 display-1">
                   "
                 </span>

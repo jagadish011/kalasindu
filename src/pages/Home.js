@@ -175,7 +175,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <CountdownCard targetDate="2024-12-22T18:00:00" />
+        <CountdownCard targetDate="2024-12-31T18:00:00" />
 
         {/* cards */}
         <section className="section">
@@ -675,7 +675,7 @@ function Home() {
             </h2>
             <div className="d-flex justify-content-center mt-5">
               <iframe
-                width="90%"
+                width="100%"
                 height="600px"
                 src="https://www.youtube.com/embed/7kHndQCyo-0?si=wqOElZrfyXdZPufo"
                 title="YouTube video player"
@@ -727,7 +727,7 @@ function Home() {
                     </a>
                   </li>
 
-                  <li>
+                  <li className="icon-mail">
                     <a
                       href="mailto:Kalasindhu@gmail.com"
                       className="text-white  d-flex align-items-center text-decoration-none"
@@ -776,9 +776,9 @@ function Home() {
             </div>
           </div>
 
-          <div className="container-fluid px-5">
+          <div className="container-fluid px-3">
             <div className="container-fluid-card ">
-              <div className="mb-lg-2 mt-3">
+              <div className="mt-1">
                 <b className="community-title">Kalasindhu Community</b>
                 <p className=" community-description">
                   Join our Whatsapp community and never miss any update on our

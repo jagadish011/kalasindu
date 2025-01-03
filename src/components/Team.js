@@ -125,7 +125,7 @@ const Team = () => {
       //   overflow: "hidden",
       // }}
     >
-      <div className="container px-4">
+      <div className="container px-3">
         <h2
           className="team"
           style={{
@@ -161,7 +161,7 @@ const Team = () => {
               />
               <figcaption className="figcaption ml-3">
                 <p className="fw-bolder text-bold fs-2">{member.name}</p>
-                <p className="mb-0 fs-5">{member.role}</p>
+                <p className="mb-0 fs-6">{member.role}</p>
               </figcaption>
               <div
                 className="small-desc text-dark mt-0 mb-0 px-4 py-3"

@@ -49,12 +49,13 @@ const CountdownCard = ({ targetDate }) => {
         container: {
           flexDirection: 'column',
           alignItems: 'center',
+          height: '150px',
           justifyContent: 'center',
           padding: '1em',
         },
-        textContainer: { width: '100%', textAlign: 'center', margin: '0.5em 0' },
+        textContainer: { width: '100%', textAlign: 'center', margin: '0 0' },
         countdownItem: { width: '100%', textAlign: 'center', margin: '0.5em 0' },
-        text: { fontSize: '1rem' },
+        text: { fontSize: '.8rem' },
         countdownNumber: { fontSize: '1.5rem', fontWeight: 700, color: '#000000' },
         countdownLabel: { fontSize: '1rem', fontWeight: 400, color: '#000000' },
       };
@@ -112,7 +113,7 @@ const CountdownCard = ({ targetDate }) => {
                 fontWeight: 600,
                 ...styles.text
               }}>
-                Count every second until our next Event (Ekadasha Rudra)
+                Count every second until our next Event
               </p>
             </div>
             <div className='d-flex justify-content-evenly' style={{

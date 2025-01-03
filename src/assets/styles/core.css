@@ -538,6 +538,8 @@ iframe {
 
 .contact-us-details ul {
   width: 12em;
+  font-family: "Open Sans";
+  font-weight: 500;
 }
 
 .contact-desc {
@@ -558,10 +560,11 @@ iframe {
   width: 33rem;
   font-size: 1.1em;
   color: white;
+  font-weight: 500;
+  font-family: "Open Sans";
 }
 
 .icons-text {
-  font-weight: bolder;
   font-size: 1.5rem;
 }
 
@@ -660,9 +663,6 @@ iframe {
     font-size: 1em;
   }
 
-  .contact-us {
-    margin-left: 15px;
-  }
 
   .hero-overlay .icons {
     align-items: end;
@@ -686,7 +686,7 @@ iframe {
   }
 
   .hero-content p {
-    font-size: 1em;
+    font-size: 1.3em;
     color: #E8E5E7;
   }
 
@@ -712,7 +712,7 @@ iframe {
 
   /*! why kalasindu */
   .why-k {
-    font-size: 1.2em;
+    font-size: 2.5em;
     padding-bottom: 1em;
     width: 100%;
   }
@@ -720,7 +720,7 @@ iframe {
 
   /*! video  */
   .video h2 {
-    font-size: 1.8em;
+    font-size: 2.5em;
   }
 
   /*! contact us */
@@ -731,13 +731,19 @@ iframe {
   .contact-us {
     color: #c59e70;
     font-family: "Oswald";
-    font-size: 1.6em;
-    margin-bottom: 1em;
+    font-size: 2.5em;
+    margin-left: 0;
+    padding: 0 .4em;
   }
 
   .contact-us-details ul {
+    padding: 0 .4em;
     width: 9.5em;
     /* font-size: 0.8em; */
+  }
+
+  .responsive-iframe-container{
+    padding: 0 .4em;
   }
 
   .responsive-iframe-container iframe {
@@ -747,7 +753,7 @@ iframe {
 
   .responsive-text {
     width: 100%;
-    font-size: 0.8em;
+    font-size: 1em;
     color: white;
   }
 
@@ -756,7 +762,11 @@ iframe {
   }
 
   .icons-text {
-    font-size: .4em;
+    font-size: .5em;
+    padding: 0 .4em;
+  }
+  .icon-mail{
+    padding: .5em 0;
   }
 
   /*!last card  */
@@ -767,16 +777,19 @@ iframe {
   .container-fluid-card {
     margin-top: 2rem;
     display: block;
+    padding: 1rem 1em;
   }
 
   .community-title {
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-bottom: 1rem;
   }
 
   .container-fluid-card p {
-    font-size: 0.9em;
-    margin-top: 1rem;
+    font-size: 1em;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-family: "Open Sans";
   }
 
   .join-button {
@@ -1333,12 +1346,12 @@ iframe {
   }
 
   .test-card h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     /* Set a smaller font size for h1 on mobile devices */
   }
 
   .test-card p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     /* Set a smaller font size for p on mobile devices */
   }
 
