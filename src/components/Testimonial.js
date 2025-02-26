@@ -12,14 +12,14 @@ const Testimonial = () => {
   return (
     <section
       className="container-fluid1"
-      // style={{
-      //   backgroundColor: "rgba(19, 51, 17, 1)",
-      //   height: "100vh",
-      //   overflow: "inherit",
-      //   paddingTop: "2.5em",
-      //   backgroundSize: "cover",
-      //   backgroundAttachment: "fixed",
-      // }}
+    // style={{
+    //   backgroundColor: "rgba(19, 51, 17, 1)",
+    //   height: "100vh",
+    //   overflow: "inherit",
+    //   paddingTop: "2.5em",
+    //   backgroundSize: "cover",
+    //   backgroundAttachment: "fixed",
+    // }}
     >
       <div className="row">
         {/* <div className="mobile-screen-headding">
@@ -61,9 +61,7 @@ const Testimonial = () => {
               interval: 2000,
               breakpoints: {
                 1200: { perPage: 2 },
-                320: { perPage: 1 },
-                990: { perPage: 3 },
-                // 768: { perPage: 2 },
+                768: { perPage: 1, focus: "center", padding: "0" }, 
               },
             }}
             ref={splideRef}

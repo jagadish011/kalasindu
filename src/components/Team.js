@@ -24,8 +24,7 @@ const teamMembers = [
                 he continues his training under Guru Chandrashekaran Kittappa
                 Pillai and Guru Smt Poornima Gururaja, and he achieved
                 distinction in his Bharatnatym Vidwath Exams. Udaykumar has
-                performed in numerous solo and group productions, and his
-                choreographies have gained acclaim. Recognized with awards like
+                performed in numerous solo and group productions. Recognized with awards like
                 Ekalavya and Prathibavardhaka.`,
   },
   {
