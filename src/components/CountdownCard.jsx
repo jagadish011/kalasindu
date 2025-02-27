@@ -69,7 +69,7 @@ const CountdownCard = ({ targetDate }) => {
         },
         textContainer: { width: '15em', textAlign: 'center' },
         countdownItem: { textAlign: 'center' },
-        text: { fontSize: '1.25em', lineHeight: '27.24px' },
+        text: { fontSize: '1em', lineHeight: '27.24px' },
         countdownNumber: { fontSize: '40px', fontWeight: 700, color: '#000000', marginRight: '.8em' },
         countdownLabel: { fontSize: '18px', fontWeight: 400, color: '#000000', marginRight: '.8em' },
       };
@@ -98,10 +98,10 @@ const CountdownCard = ({ targetDate }) => {
       >
         {timeLeft.days === 0 && timeLeft.hours === 0 && timeLeft.minutes === 0 && timeLeft.seconds === 0 ? (
           <div style={{ textAlign: 'center', padding: '2em', color: '#000' }}>
-            <h2 style={{ fontWeight: 'bold', fontSize: '1.5rem', marginBottom: '0.5em' }}>
+            <p style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.5em' }}>
               No Events Currently Ongoing
-            </h2>
-            <p style={{ fontSize: '1.25rem', fontFamily: 'Open Sans' }}>
+            </p>
+            <p style={{ fontSize: '1rem', fontFamily: 'Open Sans' }}>
               Stay tuned for upcoming events!
             </p>
           </div>
