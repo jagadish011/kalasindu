@@ -62,10 +62,11 @@
 
 /* Testimonial cards */
 .testimonial-card {
-  background: rgb(26 80 50);
+  width: fit-content;
+  background: rgb(24, 81, 50);
   border-radius: 16px;
   padding: 1.5rem;
-  margin: 1.5rem;
+  margin: 1rem;
   color: white;
   height: auto;
 }
