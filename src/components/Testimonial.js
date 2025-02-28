@@ -41,6 +41,8 @@ const Testimonial = () => {
               breakpoints: {
                 1200: { perPage: 2 },
                 320: { perPage: 1 },
+                // 375: { perPage: 1 },
+                425: { perPage: 1 },
                 990: { perPage: 3 },
               },
             }}
