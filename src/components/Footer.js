@@ -50,7 +50,7 @@ function Footer() {
 
 
                 <div className="text-center mt-5 ">
-                    <p className="footer-alt mb-0 text-white">2024 © <span className='text-warning'>KALASINDHU </span>, All
+                    <p className="footer-alt mb-0 text-white">2025 © <span className='text-warning'>KALASINDHU </span>, All
                         Rights
                         Reserved</p>
                 </div>

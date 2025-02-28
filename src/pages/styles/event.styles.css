@@ -1,9 +1,9 @@
 .section-2-1 {
   height: 100vh;
-  background-image: url("https://neodealsstorageaccount.blob.core.windows.net/neodealscontainer/aftab/f6c1a679-33e5-492e-599e-3f9f314ce9cbEvents1.png");
+  background-image: url("../../assets/images/Events1.png");
   background-size: cover;
   background-attachment: fixed;
-  background-position: top;
+  background-position: top center;
   display: flex;
   align-items: center;
   justify-content: center;
