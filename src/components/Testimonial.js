@@ -43,6 +43,8 @@ const Testimonial = () => {
                 320: { perPage: 1 },
                 // 375: { perPage: 1 },
                 425: { perPage: 1 },
+                631: { perPage: 1 },
+                // 4: { perPage: 1 },
                 990: { perPage: 3 },
               },
             }}

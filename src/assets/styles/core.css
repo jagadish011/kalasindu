@@ -680,13 +680,13 @@ iframe {
   }
 
   .hero-content span {
-    font-size: .8rem;
+    font-size: 1.4rem;
     color: #E8E5E7;
     margin-top: .1em;
   }
 
   .hero-content p {
-    font-size: 1.3em;
+    font-size: 2em;
     color: #E8E5E7;
   }
 
@@ -799,7 +799,7 @@ iframe {
   }
 
   .container-fluid-card a {
-    font-size: 0.9em;
+    font-size: 1em;
     width: 100%;
   }
 
